@@ -1,0 +1,1029 @@
+<!doctype html>
+<html class="no-js" lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <!-- Force IE to use the latest rendering engine available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+    <meta class="foundation-mq">
+
+    <!-- If Site Icon isn't set in customizer -->
+    
+    <link rel="pingback" href="https://www.cloudcomputing-news.net/xmlrpc.php">
+    
+    	<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+		<script type="text/javascript">var theChampDefaultLang = 'en_GB', theChampCloseIconPath = 'https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/images/close.png';</script>
+		<script>var theChampSiteUrl = 'https://www.cloudcomputing-news.net', theChampVerified = 0, theChampEmailPopup = 0, heateorSsMoreSharePopupSearchText = 'Search';</script>
+			<script> var theChampFBKey = '175197662587981', theChampFBLang = 'en_GB', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
+						<script type="text/javascript">var theChampFBCommentUrl = 'https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/'; var theChampFBCommentColor = ''; var theChampFBCommentNumPosts = ''; var theChampFBCommentWidth = '100%'; var theChampFBCommentOrderby = ''; var theChampCommentingTabs = "wordpress,facebook,disqus", theChampGpCommentsUrl = 'https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/', theChampDisqusShortname = '', theChampScEnabledTabs = 'wordpress,fb', theChampScLabel = 'Leave a reply', theChampScTabLabels = {"wordpress":"Default Comments (0)","fb":"Facebook Comments","disqus":"Disqus Comments"}, theChampGpCommentsWidth = 0, theChampCommentingId = 'respond'</script>
+						<script> var theChampSharingAjaxUrl = 'https://www.cloudcomputing-news.net/wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=175197662587981&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = 'https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 1, heateorSsCopyLinkMessage = "Link copied.";
+		var heateorSsHorSharingShortUrl = "https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/";var heateorSsVerticalSharingShortUrl = "https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/";		</script>
+			<style type="text/css">
+						.the_champ_button_instagram span.the_champ_svg,a.the_champ_instagram span.the_champ_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+					.the_champ_horizontal_sharing .the_champ_svg,.heateor_ss_standard_follow_icons_container .the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing span.the_champ_svg:hover,.heateor_ss_standard_follow_icons_container span.the_champ_svg:hover{
+				border-color: transparent;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg,.heateor_ss_floating_follow_icons_container span.the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg:hover,.heateor_ss_floating_follow_icons_container span.the_champ_svg:hover{
+						border-color: transparent;
+		}
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.heateor_ss_mobile_footer{display:none;}@media screen and (max-width:783px){div.the_champ_bottom_sharing ul.the_champ_sharing_ul i.theChampTCBackground{background-color:white}div.the_champ_bottom_sharing{width:100%!important;left:0!important;}div.the_champ_bottom_sharing a{width:20% !important;margin:0!important;padding:0!important;}div.the_champ_bottom_sharing .the_champ_svg{width: 100% !important;}div.the_champ_bottom_sharing div.theChampTotalShareCount{font-size:1em!important;line-height:28px!important}div.the_champ_bottom_sharing div.theChampTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_ss_mobile_footer{display:block;height:40px;}.the_champ_bottom_sharing{padding:0!important;display:block!important;width: auto!important;bottom:-2px!important;top: auto!important;}.the_champ_bottom_sharing .the_champ_square_count{line-height: inherit;}.the_champ_bottom_sharing .theChampSharingArrow{display:none;}.the_champ_bottom_sharing .theChampTCBackground{margin-right: 1.1em !important}}</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>What is VMware Workspace ONE, and why should you give it a go?</title>
+	<meta name="description" content="Experience Workspace ONE&#039;s full range of features by signing up for a free trial today." />
+	<link rel="canonical" href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="What is VMware Workspace ONE, and why should you give it a go?" />
+	<meta property="og:description" content="Experience Workspace ONE&#039;s full range of features by signing up for a free trial today." />
+	<meta property="og:url" content="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" />
+	<meta property="og:site_name" content="Cloud Computing News" />
+	<meta property="article:published_time" content="2022-02-15T09:54:00+00:00" />
+	<meta property="article:modified_time" content="2022-02-28T14:55:14+00:00" />
+	<meta property="og:image" content="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo.png" />
+	<meta property="og:image:width" content="620" />
+	<meta property="og:image:height" content="388" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Duncan MacRae" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Duncan MacRae" />
+	<meta name="twitter:label2" content="Estimated reading time" />
+	<meta name="twitter:data2" content="3 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.cloudcomputing-news.net/#website","url":"https://www.cloudcomputing-news.net/","name":"Cloud Computing News","description":"IaaS, SaaS, PaaS, Data Security, CIO, Analysis","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.cloudcomputing-news.net/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#primaryimage","url":"https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo.png","contentUrl":"https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo.png","width":620,"height":388,"caption":"The VMware logo."},{"@type":"WebPage","@id":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#webpage","url":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/","name":"What is VMware Workspace ONE, and why should you give it a go?","isPartOf":{"@id":"https://www.cloudcomputing-news.net/#website"},"primaryImageOfPage":{"@id":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#primaryimage"},"datePublished":"2022-02-15T09:54:00+00:00","dateModified":"2022-02-28T14:55:14+00:00","author":{"@id":"https://www.cloudcomputing-news.net/#/schema/person/e56c8f457ea4401a824b828167be4375"},"description":"Experience Workspace ONE's full range of features by signing up for a free trial today.","breadcrumb":{"@id":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/"]}]},{"@type":"BreadcrumbList","@id":"https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.cloudcomputing-news.net/"},{"@type":"ListItem","position":2,"name":"News","item":"https://www.cloudcomputing-news.net/cloud-tech-news/"},{"@type":"ListItem","position":3,"name":"What is VMware Workspace ONE, and why should you give it a go?"}]},{"@type":"Person","@id":"https://www.cloudcomputing-news.net/#/schema/person/e56c8f457ea4401a824b828167be4375","name":"Duncan MacRae","image":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.cloudcomputing-news.net/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/72143386d5716f727d309d47b71b9ce3?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/72143386d5716f727d309d47b71b9ce3?s=96&d=mm&r=g","caption":"Duncan MacRae"},"description":"Duncan is an award-winning editor with more than 20 years experience in journalism. Having launched his tech journalism career as editor of Arabian Computer News in Dubai, he has since edited an array of tech and digital marketing publications, including Computer Business Review, TechWeekEurope, Figaro Digital, Digit and Marketing Gazette.","sameAs":["duncan@techforge.pub"],"url":"https://www.cloudcomputing-news.net/news/author/duncan1/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Cloud Computing News &raquo; Feed" href="https://www.cloudcomputing-news.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cloud Computing News &raquo; Comments Feed" href="https://www.cloudcomputing-news.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cloud Computing News &raquo; What is VMware Workspace ONE, and why should you give it a go? Comments Feed" href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.cloudcomputing-news.net/wp-includes/css/dist/block-library/style.min.css?ver=6.0' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='gdpr-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gdpr/dist/css/public.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='publishers-toolbox-popular-posts-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/publishers-toolbox-popular-posts/frontend/css/publishers-toolbox-popular-posts-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=6.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='TechForge-css'  href='https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/styles/style.css?ver=1613499312' type='text/css' media='all' />
+<style id='TechForge-inline-css' type='text/css'>
+        body {background-color:#ffffff;color:#4a4a4a;}
+        .menu .menu-item a, .widget .category:hover,.small-title,.techforge-dropdown .icon{color:#4e91b7;}
+        .menu .menu-item a:hover,.menu .menu-item a:focus, .menu .menu-item.active a, .dropdown.menu > li.is-active > a,.menu .menu-item.current_page_item a,.footer .widget a:hover,h2 a:hover, .techforge-dropdown:hover .icon{color:#4483a7;}
+        .dropdown.menu > li.is-dropdown-submenu-parent > a::after {border-color:#4e91b7 transparent transparent !important;}
+        #offcanvas-nav .techforge-dropdown[aria-expanded="true"] > .icon{color:#4483a7;}
+        .dropdown.menu > li.is-active > a::after, .dropdown.menu > li.active > a::after {border-color:#4483a7 transparent transparent !important;}
+        a {color:#4e91b7;}
+        a:hover, a:focus, .byline a:hover {color:#4483a7 !important;}
+        .customize,h4.widgettitle,.home h2{color: #4e91b7}
+        h1,h2,h3,h4,h5,h6,.article-header h3 a{color:#404041;}
+        label {color:#404041;}
+        .widget_mc4wp_form_widget {background-color:#4483a7;}
+        .widget_mc4wp_form_widget .btn, .mobile-links-bar{background-color:#4e91b7;}
+        .widget_mc4wp_form_widget .btn:hover{background-color:#4e91b7;}
+        .button{background-color:#4e91b7;}
+        .menu-icon{background-color: #404041;}
+        .you-are-here{color: #4483a7;}
+        .mobile-search .search-box-icon{background-color: #ffffff;color: #404041;}
+        .mobile-links-bar a{color: #ffffff !important;}
+        #loginModal .gform_wrapper .gsection{border-bottom: 2px solid #4483a7;}
+        .mobile-links-bar .techforge-social-widget .twp-social-widget ul li a{color: #ffffff !important;}
+        .title-bar{background: #ffffff !important;}
+        .off-canvas-content .menu-bar {border-bottom-color: #ffffff;}
+        .button:focus, .button:hover, .invert{background-color:#4483a7;}
+        .invert:focus, .invert:hover{background-color:#4e91b7;}
+        .accent, .featured a h3:hover, .widget a:hover, .widget a h3:hover{color: #4483a7;}
+        .footer .widget h4.widgettitle, .footer .widget a{color:#4e91b7;}
+        .menu .techforge-login.menu-item a{color:#4483a7;border-left: 1px solid #4483a7; border-right: 1px solid #4483a7;}
+        .reg-footer {border-top: #4483a7; }
+        .content-gate {border-color:  #4483a7; }
+        .subscribe-widget {background-color:#4483a7;}
+        .navigation .tf-events-link {background-color:#4483a7;}
+</style>
+<link rel='stylesheet' id='TechForge-multiselect-css'  href='https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/styles/jquery.multiselect.css?ver=1613499312' type='text/css' media='all' />
+<link rel='stylesheet' id='the_champ_frontend_css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/css/front.css?ver=7.13.35' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgdprc-front-css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/wp-gdpr-compliance/Assets/css/front.css?ver=1655372076' type='text/css' media='all' />
+<style id='wpgdprc-front-css-inline-css' type='text/css'>
+:root{--wp-gdpr--bar--background-color: #000000;--wp-gdpr--bar--color: #ffffff;--wp-gdpr--button--background-color: #000000;--wp-gdpr--button--background-color--darken: #000000;--wp-gdpr--button--color: #ffffff;}
+</style>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='gdpr-js-extra'>
+/* <![CDATA[ */
+var GDPR = {"ajaxurl":"https:\/\/www.cloudcomputing-news.net\/wp-admin\/admin-ajax.php","logouturl":"","i18n":{"aborting":"Aborting","logging_out":"You are being logged out.","continue":"Continue","cancel":"Cancel","ok":"OK","close_account":"Close your account?","close_account_warning":"Your account will be closed and all data will be permanently deleted and cannot be recovered. Are you sure?","are_you_sure":"Are you sure?","policy_disagree":"By disagreeing you will no longer have access to our site and will be logged out."},"is_user_logged_in":"","refresh":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/gdpr/dist/js/public.js?ver=2.1.2' id='gdpr-js'></script>
+<script type='text/javascript' id='publishers-toolbox-popular-posts-js-extra'>
+/* <![CDATA[ */
+var ptxFrontendObject = {"ajax_url":"https:\/\/www.cloudcomputing-news.net\/wp-admin\/admin-ajax.php","_nonce":"046f69aeb7","post_id":"97355"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/publishers-toolbox-popular-posts/frontend/js/publishers-toolbox-popular-posts-public.js?ver=1.0.0' id='publishers-toolbox-popular-posts-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/publishers-toolbox-popular-posts/frontend/js/publishers-toolbox-popular-posts-infinite.js?ver=1.0.0' id='publishers-toolbox-popular-posts-infinite-js'></script>
+<script type='application/json' id='wpp-json'>
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.cloudcomputing-news.net\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/www.cloudcomputing-news.net\/wp-json\/wordpress-popular-posts","ID":97355,"token":"080890f3ca","lang":0,"debug":0}
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.0.0' id='wpp-js-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.13.35' id='the_champ_ss_general_scripts-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/js/front/facebook/sdk.js?ver=7.13.35' id='the_champ_fb_sdk-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/js/front/facebook/commenting.js?ver=7.13.35' id='the_champ_fb_commenting-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/super-socializer/js/front/sharing/sharing.js?ver=7.13.35' id='the_champ_share_counts-js'></script>
+<script type='text/javascript' id='wpgdprc-front-js-js-extra'>
+/* <![CDATA[ */
+var wpgdprcFront = {"ajaxUrl":"https:\/\/www.cloudcomputing-news.net\/wp-admin\/admin-ajax.php","ajaxNonce":"1b156d75bf","ajaxArg":"security","pluginPrefix":"wpgdprc","blogId":"2","isMultiSite":"1","locale":"en_GB","showSignUpModal":"","showFormModal":"","cookieName":"2-wpgdprc-consent","consentVersion":"","path":"\/","prefix":"wpgdprc"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/plugins/wp-gdpr-compliance/Assets/js/front.min.js?ver=1655372076' id='wpgdprc-front-js-js'></script>
+<link rel="https://api.w.org/" href="https://www.cloudcomputing-news.net/wp-json/" /><link rel="alternate" type="application/json" href="https://www.cloudcomputing-news.net/wp-json/wp/v2/posts/97355" /><link rel='shortlink' href='https://www.cloudcomputing-news.net/?p=97355' />
+<link rel="alternate" type="application/json+oembed" href="https://www.cloudcomputing-news.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.cloudcomputing-news.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&#038;format=xml" />
+            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+            <!-- Bombora Tag -->
+<script>
+  //ccm informer
+  (function(f,i,c){var a=decodeURIComponent,e="",l="",o="||",g=";;",h="split",b="length",j="indexOf",k=0,n="localStorage",m="_ccmdt";f[c]=f[c]||{};function d(q){var p;if(f[n]){return f[n][q]||""}else{p=i.cookie.match(q+"=([^;]*)");return(p&&p[1])||""}}f[c].us={};e=a(d(m))[h](o);k=e[b];if(k>0){while(k--){l=e[k][h]("=");if(l[b]>1){if(l[1][j](g)>-1){f[c].us[l[0]]=l[1][h](g);f[c].us[l[0]].pop()}else{f[c].us[l[0]]=l[1]}}}}})(window,document,"_ml");
+  
+  //ccm tag
+  (function () {
+    _ml = window._ml || {};
+    _ml.eid = '84460';
+    _ml.informer = {
+      callback: function (gaSet,gaSend) { //call back when profile is loaded
+        if (typeof ga != 'undefined' && _ml.us) {
+          _ml.us.tp && _ml.us.tp.length > 0 && ga(gaSet, 'dimension1', _ml.us.tp[0]);
+          _ml.us.cr && ga(gaSet, 'dimension2', _ml.us.cr);
+          _ml.us.cs && ga(gaSet, 'dimension3', _ml.us.cs);
+          _ml.us.dm && ga(gaSet, 'dimension4', _ml.us.dm);
+          _ml.us.pc && _ml.us.pc.length > 0 && ga(gaSet, 'dimension5', _ml.us.pc[0]);
+          _ml.us.sn && ga(gaSet, 'dimension6', _ml.us.sn);
+          _ml.us.dcm  && ga(gaSet, 'dimension7', _ml.us.dcm );
+          _ml.us.fa  && ga(gaSet, 'dimension8', _ml.us.fa );
+          _ml.us.ins && _ml.us.ins.length > 0 && ga(gaSet, 'dimension9', _ml.us.ins[0]);
+          _ml.us.pg && _ml.us.pg.length > 0 && ga(gaSet, 'dimension10', _ml.us.pg[0]);
+          _ml.us.edu  && ga(gaSet, 'dimension11', _ml.us.edu );
+          _ml.us.ind && ga(gaSet, 'dimension12', _ml.us.ind);
+
+          //send custom event to ga
+          ga(gaSend, {'hitType': 'event', 'eventCategory': 'CCM', 'eventAction': 'Loaded Profile', 'nonInteraction': 1});
+        }
+      },
+      enable: true
+    };
+    var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+    mltag.type = 'text/javascript'; mltag.async = true;
+    mltag.src = 'https://ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+    s.parentNode.insertBefore(mltag, s);
+  })();
+</script>
+<!-- End Bombora Tag -->
+<!-- Global site tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-436779939"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-436779939');
+</script><style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none}}</style><link rel="icon" href="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/09/cloud-icon-60x60.png" sizes="32x32" />
+<link rel="icon" href="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/09/cloud-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/09/cloud-icon.png" />
+<meta name="msapplication-TileImage" content="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/09/cloud-icon.png" />
+		<style type="text/css" id="wp-custom-css">
+			
+
+.gform_wrapper .gfield_label {
+    position: inherit !important;
+
+}
+
+.gform_wrapper .gfield {
+position: inherit;
+margin-bottom: 1rem;
+}		</style>
+		    
+    
+
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23827491-6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23827491-6');
+        </script>
+
+        
+        <script type='text/javascript'>var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function () {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();</script>
+        <script type='text/javascript'>googletag.cmd.push(function () {
+                googletag.defineSlot('/58361164/CLOUDTECH-Leaderboard-ROS-(728x90)', [728, 90], 'div-gpt-ad-1603789062577-0').addService(googletag.pubads());
+googletag.defineSlot('/58361164/CLOUDTECH-MPU-ROS-Top-Right-(300x250)', [300, 250], 'div-gpt-ad-1603789152213-0').addService(googletag.pubads());
+googletag.defineSlot('/58361164/CLOUDTECH-Halfpage-ROS-Lower-Right(300x600)', [300, 600], 'div-gpt-ad-1603796827201-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });</script>
+    
+</head>
+
+<body id="techforge" class="post-template-default single single-post postid-97355 single-format-standard wp-custom-logo &quot; data-type=&quot;view&quot;  data-interval=&quot;25000">
+
+
+<div class="off-canvas-wrapper tf-full-screen">
+        <div class="off-canvas-content" data-off-canvas-content>
+        <header class="header" role="banner" data-sticky-container>
+            <div class="menu-bar sticky" data-sticky="" data-options="marginTop:0;" style="border-bottom-color: #4483a7;">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x hide-for-large mobile-option-bar">
+            <div class="cell small-3 offcanvas-container">
+                <div class="title-bar" data-responsive-toggle="top-bar-menu" data-hide-for="large">
+                    <button class="menu-icon" type="button" data-toggle="off-canvas"></button>
+                    <div class="title-bar-title">Menu</div>
+                </div> <!-- End mobile title bar -->
+            </div> <!-- End cell -->
+            <div class="cell small-6">
+                <a href="https://www.cloudcomputing-news.net/" class="custom-logo-link" rel="home"><img width="469" height="70" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1.png" class="custom-logo" alt="Cloud Computing News" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1.png 469w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-300x45.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-380x57.png 380w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-350x52.png 350w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-100x15.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-60x9.png 60w" sizes="(max-width: 469px) 100vw, 469px" /></a>            </div> <!-- End cell -->
+            <div class="cell auto mobile-search"> <!--Targeted by JS event!-->
+                <form role="search" method="get" class="search-box" action="https://www.cloudcomputing-news.net/">
+    <input type="search" placeholder="Search" name="s" class="search-box-input" onkeyup="buttonUp();" value="" title="Search for:" required>
+    <input type="submit" class="search-box-submit" value="GO">
+        <span class="icon icon-search search-box-icon" style="background-color: #4483a7;"></span>
+    </form>
+            </div> <!-- End cell -->
+        </div> <!-- End Grid X -->
+        <div class="grid-x grid-margin-x hide-for-large mobile-links-bar">
+            <div class="cell small-4 medium-4">
+                                    <div id="techforge-social-layout-3" class="widget techforge-social-widget">            <style>
+                .twp-social-widget .social-widget-wrapper li a {
+                    color: #4483a7;
+                }
+
+                .twp-social-widget .social-widget-wrapper li a:hover {
+                    color: ;
+                }
+            </style>
+            <div class="twp-social-widget">
+                <ul class="social-widget-wrapper">
+                                            <li class="margin-right-1">
+                            <a href="https://www.facebook.com/pages/CT/210614738995040" target="_blank">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                                                                <li class="margin-right-1">
+                            <a href="https://twitter.com/cloud_comp_news" target="_blank">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                                                                <li class="margin-right-1">
+                            <a href="https://www.linkedin.com/groups/45151/" target="_blank">
+                                <i class="icon icon-linkedin"></i>
+                            </a>
+                        </li>
+                                                                                                                                        </ul>
+            </div>
+            </div>                            </div> <!-- End cell -->
+            <div class="cell small-5 medium-4 text-center you-are-here">
+                <p class="post-type-display">
+                    ARTICLE                </p>
+            </div> <!-- End cell -->
+            <div class="cell small-3 medium-4 login-prompt">
+                                    <a href="#" data-open="loginModal"><p>LOG IN</p></a>
+                            </div><!-- End cell -->
+        </div> <!-- End Grid X -->
+        <div class="top-bar" id="top-bar-menu">
+                            <div class="hide-for-small-only">
+                    <div id="techforge-social-layout-3" class="widget techforge-social-widget">            <style>
+                .twp-social-widget .social-widget-wrapper li a {
+                    color: #4483a7;
+                }
+
+                .twp-social-widget .social-widget-wrapper li a:hover {
+                    color: ;
+                }
+            </style>
+            <div class="twp-social-widget">
+                <ul class="social-widget-wrapper">
+                                            <li class="margin-right-1">
+                            <a href="https://www.facebook.com/pages/CT/210614738995040" target="_blank">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                                                                <li class="margin-right-1">
+                            <a href="https://twitter.com/cloud_comp_news" target="_blank">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                                                                <li class="margin-right-1">
+                            <a href="https://www.linkedin.com/groups/45151/" target="_blank">
+                                <i class="icon icon-linkedin"></i>
+                            </a>
+                        </li>
+                                                                                                                                        </ul>
+            </div>
+            </div>                </div>
+                        <div class="top-bar-left navigation show-for-large">
+                <ul id="main-nav" class="medium-horizontal menu" data-responsive-menu="accordion medium-dropdown"><li id="menu-item-92135" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-92135"><a href="https://www.cloudcomputing-news.net/cloud-tech-news/">News</a></li>
+<li id="menu-item-92140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92140"><a href="#">Categories</a>
+<ul class="menu">
+	<li id="menu-item-96345" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-96345"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/">Applications</a>
+	<ul class="menu">
+		<li id="menu-item-96346" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96346"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-blockchain/">Blockchain</a></li>
+		<li id="menu-item-96347" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96347"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-containers/">Containers</a></li>
+		<li id="menu-item-96348" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96348"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-data-centres/">Data Centres</a></li>
+		<li id="menu-item-96349" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96349"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-infrastructure-service/">Infrastructure as a Service</a></li>
+		<li id="menu-item-96350" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96350"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-platform-service/">Platform as a Service</a></li>
+		<li id="menu-item-96351" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96351"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-software-service/">Software as a Service</a></li>
+		<li id="menu-item-96352" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-96352"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-virtualisation/">Virtualisation</a></li>
+	</ul>
+</li>
+	<li id="menu-item-96353" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-96353"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/">Companies</a>
+	<ul class="menu">
+		<li id="menu-item-96354" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96354"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-alibaba-cloud/">Alibaba Cloud</a></li>
+		<li id="menu-item-96355" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96355"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-aws/">AWS</a></li>
+		<li id="menu-item-96356" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96356"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-google-cloud/">Google Cloud</a></li>
+		<li id="menu-item-96357" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96357"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-microsoft/">Microsoft</a></li>
+	</ul>
+</li>
+	<li id="menu-item-96358" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96358"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-data-analytics/">Data &amp; Analytics</a></li>
+	<li id="menu-item-96359" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-96359"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/">Enterprise</a>
+	<ul class="menu">
+		<li id="menu-item-96360" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96360"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-migration/">Cloud Migration</a></li>
+		<li id="menu-item-96361" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96361"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-collaboration/">Collaboration</a></li>
+		<li id="menu-item-96362" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-96362"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-digital-transformation/">Digital Transformation</a></li>
+		<li id="menu-item-96363" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96363"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-future-work/">Future Work</a></li>
+		<li id="menu-item-96364" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96364"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-hybrid-cloud/">Hybrid Cloud</a></li>
+		<li id="menu-item-96365" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96365"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-private-cloud/">Private Cloud</a></li>
+		<li id="menu-item-96366" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96366"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-public-cloud/">Public Cloud</a></li>
+	</ul>
+</li>
+	<li id="menu-item-96367" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-96367"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/">Industries</a>
+	<ul class="menu">
+		<li id="menu-item-96368" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96368"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/cloud-computing-banking-finance/">Banking &amp; Finance</a></li>
+		<li id="menu-item-96369" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96369"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/cloud-computing-healthcare/">Healthcare</a></li>
+		<li id="menu-item-96370" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96370"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/cloud-computing-public-sector/">Public Sector</a></li>
+		<li id="menu-item-96371" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96371"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/cloud-computing-retail-consumer/">Retail &amp; Consumer</a></li>
+		<li id="menu-item-96372" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96372"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-industries/cloud-computing-telecoms/">Telecoms</a></li>
+	</ul>
+</li>
+	<li id="menu-item-96373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96373"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-infrastructure/">Infrastructure</a></li>
+	<li id="menu-item-96374" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96374"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-iot/">IoT</a></li>
+	<li id="menu-item-96375" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96375"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-platforms/">Platforms</a></li>
+	<li id="menu-item-96376" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96376"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-privacy/">Privacy</a></li>
+	<li id="menu-item-96377" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96377"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-regulation-government/">Regulation &amp; Government</a></li>
+	<li id="menu-item-96378" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96378"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-research/">Research</a></li>
+	<li id="menu-item-96379" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-96379"><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-security/">Security</a></li>
+</ul>
+</li>
+<li id="menu-item-93384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93384"><a href="/events">Events</a></li>
+<li id="menu-item-94302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94302"><a href="https://cloudcomputing-news.net/resources/">Webinars &#038; Resources</a>
+<ul class="menu">
+	<li id="menu-item-95569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95569"><a href="https://cloudcomputing-news.net/resources/">On-demand Webinars</a></li>
+	<li id="menu-item-95059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95059"><a href="https://cloudcomputing-news.net/news/videos">Exclusive Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-94341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-94341"><a href="https://www.cloudcomputing-news.net/work-with-cloud-computing-news/">Work With Us</a>
+<ul class="menu">
+	<li id="menu-item-94342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94342"><a href="https://www.cloudcomputing-news.net/work-with-cloud-computing-news/">Work With Cloud Tech News</a></li>
+	<li id="menu-item-94344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94344"><a href="https://www.cloudcomputing-news.net/about-us/">About Cloud Tech News</a></li>
+	<li id="menu-item-94343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94343"><a href="https://www.cloudcomputing-news.net/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-94348" class="techforge-login menu-item menu-item-type-custom menu-item-object-custom menu-item-94348"><a href="https://cloudcomputing-news.net/#">Subscribe / Login</a></li>
+<li id="menu-item-92147" class="techforge-dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92147"><a href="#">TechForge</a>
+<ul class="menu">
+	<li id="menu-item-95902" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95902"><a href="http://artificialintelligence-news.com/">AI News</a></li>
+	<li id="menu-item-92148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92148"><a target="_blank" rel="noopener" href="https://www.blockchaintechnology-news.com/">The Block</a></li>
+	<li id="menu-item-92150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92150"><a target="_blank" rel="noopener" href="https://www.developer-tech.com/">Developer News</a></li>
+	<li id="menu-item-92151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92151"><a target="_blank" rel="noopener" href="http://edgecomputing-news.com/">Edge Computing News</a></li>
+	<li id="menu-item-92153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92153"><a target="_blank" rel="noopener" href="https://www.iottechnews.com/">IoT News</a></li>
+	<li id="menu-item-92154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92154"><a target="_blank" rel="noopener" href="https://www.marketingtechnews.net/">Marketing Tech News</a></li>
+	<li id="menu-item-92155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92155"><a target="_blank" rel="noopener" href="https://www.telecomstechnews.com/">Telecoms Tech News</a></li>
+</ul>
+</li>
+<li id="menu-item-93994" class="tf-events-link menu-item menu-item-type-custom menu-item-object-custom menu-item-93994"><a target="_blank" rel="noopener" href="https://techforge.pub/upcoming-events/">Upcoming Events</a></li>
+</ul>            </div>
+            <div class="top-bar-right show-for-large">
+                <form role="search" method="get" class="search-box" action="https://www.cloudcomputing-news.net/">
+    <input type="search" placeholder="Search" name="s" class="search-box-input" onkeyup="buttonUp();" value="" title="Search for:" required>
+    <input type="submit" class="search-box-submit" value="GO">
+        <span class="icon icon-search search-box-icon" style="background-color: #4483a7;"></span>
+    </form>
+            </div>
+
+        </div> <!-- End desktop title bar -->
+    </div> <!-- End Grid Container -->
+</div>
+        </header>
+        
+<div class="header-logo grid-container margin-top-1 margin-bottom-1 show-for-medium">
+    <div class="grid-x">
+        <div class="small-12 medium-4 large-5 cell hide-for-medium-only">
+            <a href="https://www.cloudcomputing-news.net/" class="custom-logo-link" rel="home"><img width="469" height="70" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1.png" class="custom-logo" alt="Cloud Computing News" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1.png 469w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-300x45.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-380x57.png 380w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-350x52.png 350w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-100x15.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/cloudcomputing-1-60x9.png 60w" sizes="(max-width: 469px) 100vw, 469px" /></a>        </div>
+        <div class="small-12 medium-8 large-7 cell text-right">
+                            <div id="media_image-10" class="widget widget_media_image"><a href="https://edgecomputing-expo.com/europe/"><img width="728" height="90" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge.png" class="image wp-image-97942  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge.png 728w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge-300x37.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge-380x47.png 380w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge-350x43.png 350w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge-100x12.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/728x90-Edge-60x7.png 60w" sizes="(max-width: 728px) 100vw, 728px" /></a></div>                    </div>
+    </div>
+</div>
+
+        <div class="grid-container">
+
+
+    
+    
+
+<div class="content">
+    <div class="inner-content">
+        <div class="grid-x grid-margin-x">
+            <main id="main" class="main small-12 medium-7 large-9 cell" role="main" data-max-pages="2" data-scroll="true" data-query-type="single" data-post-type="post" data-value="495" data-front="" data-start="97355" data-ppp="1">
+                                    
+<article id="post-97355" class="articles post-97355 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-computing-applications category-cloud-computing category-cloud-computing-digital-transformation category-cloud-computing-virtualisation tag-vmware tag-workspace-one" role="article" itemscope itemtype="http://schema.org/BlogPosting" data-title="What is VMware Workspace ONE, and why should you give it a go?" data-url="/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/">
+    <header class="article-header">
+        <h1 class="entry-title single-title" itemprop="headline">What is VMware Workspace ONE, and why should you give it a go?</h1>
+    </header>
+    <section class="entry-content" itemprop="text">
+        <div class="grid-x grid-margin-x margin-top-2">
+            <div class="cell small-12 medium-12 large-12 margin-bottom-1">
+
+
+                                    <img width="620" height="388" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo.png" class="attachment-full size-full wp-post-image" alt="The VMware logo." srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo.png 620w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-300x188.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-320x200.png 320w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-380x238.png 380w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-350x219.png 350w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-100x63.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/02/vmware-logo-60x38.png 60w" sizes="(max-width: 620px) 100vw, 620px" />                            </div>
+
+            <div class="cell small-12 medium-12 large-4 margin-bottom-1">
+                <div class="author">
+    <div class="avatar-left">
+                        <img src="http://marketingtechnews.net/wp-content/uploads/sites/6/2021/09/photo-of-duncan-scaled.jpg" alt="What is VMware Workspace ONE, and why should you give it a go?" title="What is VMware Workspace ONE, and why should you give it a go?">
+                </div>
+    <div class="byline">
+        <span class="by">By <a href="https://www.cloudcomputing-news.net/news/author/duncan1/" title="Posts by Duncan MacRae" rel="author">Duncan MacRae</a></span> |
+        <time class="entry-date published" datetime="2022-02-15T09:54:00+00:00">15th February 2022</time>                    | <span class="company">MarketingTech</span>
+                
+                <div class="">
+                            Categories:
+                                    <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/" title="Cloud Computing Applications News. Explore the latest news and insights on cloud applications here at Cloud Tech News.">Applications</a>,
+                                    <a href="https://www.cloudcomputing-news.net/categories/cloud-computing/" title="Cloud Computing News. Explore the latest news and insights surrounding cloud technology here at Cloud Tech News.">Cloud Computing</a>,
+                                    <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-digital-transformation/" title="Cloud Computing Digital Transformation News. Read the latest news and insights on digital transformation in cloud computing here at Cloud Tech News.">Digital Transformation</a>,
+                                    <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-virtualisation/" title="<span data-sheets-value="{" data-sheets-userformat="{">Cloud Computing Virtualisation News. Read the latest on cloud computing and virtualisation news here at Cloud Tech News.</span>">Virtualisation</a>,
+                        </div>
+    </div>
+</div>
+<div class="author-description margin-top-1">Duncan is an award-winning editor with more than 20 years experience in journalism. Having launched his tech journalism career as editor of Arabian Computer News in Dubai, he has since edited an array of tech and digital marketing publications, including Computer Business Review, TechWeekEurope, Figaro Digital, Digit and Marketing Gazette.</div>
+                <hr class="show-for-medium-only">
+            </div>
+
+            <div class="cell small-12 medium-12 large-8">
+                                    <div style='clear:both'></div><div style="float:right" class='the_champ_sharing_container the_champ_horizontal_sharing' data-super-socializer-href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/"><div class='the_champ_sharing_title' style="font-weight:bold" ></div><div class="the_champ_sharing_ul"><a class="the_champ_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg" style="background-color:#3c589a;width:40px;height:40px;border-radius:3px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-5 -5 42 42"><path d="M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z" fill="#fff"></path></svg></span></a><a class="the_champ_button_twitter" href="https://twitter.com/intent/tweet?text=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Twitter" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_twitter" style="background-color:#55acee;width:40px;height:40px;border-radius:3px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -4 39 39"><path d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z" fill="#fff"></path></svg></span></a><a class="the_champ_button_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;border-radius:3px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a class="the_champ_button_reddit" href="https://reddit.com/submit?url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Reddit" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_reddit" style="background-color:#ff5700;width:40px;height:40px;border-radius:3px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-3.5 -3.5 39 39"><path d="M28.543 15.774a2.953 2.953 0 0 0-2.951-2.949 2.882 2.882 0 0 0-1.9.713 14.075 14.075 0 0 0-6.85-2.044l1.38-4.349 3.768.884a2.452 2.452 0 1 0 .24-1.176l-4.274-1a.6.6 0 0 0-.709.4l-1.659 5.224a14.314 14.314 0 0 0-7.316 2.029 2.908 2.908 0 0 0-1.872-.681 2.942 2.942 0 0 0-1.618 5.4 5.109 5.109 0 0 0-.062.765c0 4.158 5.037 7.541 11.229 7.541s11.22-3.383 11.22-7.541a5.2 5.2 0 0 0-.053-.706 2.963 2.963 0 0 0 1.427-2.51zm-18.008 1.88a1.753 1.753 0 0 1 1.73-1.74 1.73 1.73 0 0 1 1.709 1.74 1.709 1.709 0 0 1-1.709 1.711 1.733 1.733 0 0 1-1.73-1.711zm9.565 4.968a5.573 5.573 0 0 1-4.081 1.272h-.032a5.576 5.576 0 0 1-4.087-1.272.6.6 0 0 1 .844-.854 4.5 4.5 0 0 0 3.238.927h.032a4.5 4.5 0 0 0 3.237-.927.6.6 0 1 1 .844.854zm-.331-3.256a1.726 1.726 0 1 1 1.709-1.712 1.717 1.717 0 0 1-1.712 1.712z" fill="#fff"/></svg></span></a><a class="the_champ_more" title="More" rel="nofollow noopener" style="font-size:24px!important;border:0;box-shadow:none;display:inline-block!important;font-size:16px;padding:0 4px;vertical-align: middle;display:inline;" href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" onclick="event.preventDefault()"><span class="the_champ_svg" style="background-color:#ee8e2d;width:40px;height:40px;border-radius:3px;display:inline-block!important;opacity:1;float:left;font-size:32px!important;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;display:inline;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box;" onclick="theChampMoreSharingPopup(this, 'https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/', 'What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F', '' )"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-.3 0 32 32" version="1.1" width="100%" height="100%" style="display:block;" xml:space="preserve"><g><path fill="#fff" d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a></div></div><div style='clear:both'></div>
+<p>With remote working and the proliferation of business devices and apps, application delivery, and device and identity management has never been more complex.</p>
+
+
+
+<p>In the mobile cloud era, employees, devices, applications and data increasingly live beyond the physical walls of the workplace, the datacentre or the network.</p>
+
+
+
+<p>Due to this, digital enterprises can often struggle to deliver a unified digital workspace due to disjointed technology and teams.</p>
+
+
+
+<p>This is where VMware Workspace ONE, can help. Launched in 2016, Workspace ONE has been helping organisations to bring together identity, device management and application delivery on a single integrated platform so business can be conducted by mobile end users regardless of platform, location, device or application.</p>
+
+
+
+<p>The platform allows IT to deliver a digital workspace that includes the devices and apps of the business&#8217;s choice, without sacrificing the security and control that IT professionals need.</p>
+
+
+
+<p>Key features:</p>
+
+
+
+<p><strong>Automated app management</strong></p>
+
+
+
+<p>Workspace ONE allows IT professionals to automate application distribution and updates on the fly. Whether they are deploying Windows apps or mobile apps, VMware automates the application delivery process to allow better security and compliance.</p>
+
+
+
+<p>Users can eliminate the need for laptop imaging with Workspace ONE’s simplified device management and provisioning. Software packages can also be automatically installed, updated or removed, while secure hosted virtual apps and desktops also enable users to work on highly sensitive and confidential information without compromising security with Horizon.</p>
+
+
+
+<p><strong>Conditional access</strong></p>
+
+
+
+<p>To protect the most sensitive information, Workspace ONE enforces access decisions based on device compliance and identity context. Using VMware’s powerful policy engine, organisations can mix and match inputs to make dynamic decisions on the level of access end users get. Conditional access grants the right permissions to the right end users while keeping corporate data secure.</p>
+
+
+
+<p>This means, if companies need to keep remote users on unmanaged devices from accessing data, they can do it with just a few clicks. But Workspace ONE does not just help control access. VMware takes things one step further and helps end users reach compliance. This keeps your data secure while granting end users the access they need.</p>
+
+
+
+<p><strong>Consumer-simple app authentication</strong></p>
+
+
+
+<p>End-users can get password-less single sign-on (SSO) to a catalogue that provides them with access to virtually any app. This includes mobile apps, web apps, cloud apps and Windows apps. Once signed-in, end-users can select the applications they need to be productive without IT intervention. IT professionals control the back-end workflow to provide an excellent user experience that does not sacrifice security.</p>
+
+
+
+<p><strong>Unified Endpoint Management options</strong></p>
+
+
+
+<p>Workspace ONE does not dictate which platforms to deploy in your environment. VMware’s goal is to support any device &#8211; even devices that have not yet been invented &#8211; from desktop OSs to mobile OSs, and even wearables and 3D graphics workstations. Beyond that, while some devices are corporate-owned and require IT management throughout their lifecycle, many will be owned by the employees themselves. Workspace ONE puts the choice in employees’ hands for the level of convenience, access, security, and management that makes sense for their work style.</p>
+
+
+
+<p>To begin your free trial of Workspace ONE and/or free consultation, visit: <a href="https://www.vmware.com/workspace-one/free-trial.html" target="_blank" rel="noreferrer noopener">VMware | Try Workspace ONE</a></p>
+<div class='the_champ_sharing_container the_champ_vertical_sharing the_champ_hide_sharing the_champ_bottom_sharing' style='width:44px;left: -10px;top: 300px;-webkit-box-shadow:none;box-shadow:none;' data-super-socializer-href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/"><div class="the_champ_sharing_ul"><a class="the_champ_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg" style="background-color:#3c589a;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-5 -5 42 42"><path d="M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z" fill="#fff"></path></svg></span></a><a class="the_champ_button_twitter" href="https://twitter.com/intent/tweet?text=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Twitter" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_twitter" style="background-color:#55acee;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -4 39 39"><path d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z" fill="#fff"></path></svg></span></a><a class="the_champ_button_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a class="the_champ_button_reddit" href="https://reddit.com/submit?url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Reddit" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_reddit" style="background-color:#ff5700;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-3.5 -3.5 39 39"><path d="M28.543 15.774a2.953 2.953 0 0 0-2.951-2.949 2.882 2.882 0 0 0-1.9.713 14.075 14.075 0 0 0-6.85-2.044l1.38-4.349 3.768.884a2.452 2.452 0 1 0 .24-1.176l-4.274-1a.6.6 0 0 0-.709.4l-1.659 5.224a14.314 14.314 0 0 0-7.316 2.029 2.908 2.908 0 0 0-1.872-.681 2.942 2.942 0 0 0-1.618 5.4 5.109 5.109 0 0 0-.062.765c0 4.158 5.037 7.541 11.229 7.541s11.22-3.383 11.22-7.541a5.2 5.2 0 0 0-.053-.706 2.963 2.963 0 0 0 1.427-2.51zm-18.008 1.88a1.753 1.753 0 0 1 1.73-1.74 1.73 1.73 0 0 1 1.709 1.74 1.709 1.709 0 0 1-1.709 1.711 1.733 1.733 0 0 1-1.73-1.711zm9.565 4.968a5.573 5.573 0 0 1-4.081 1.272h-.032a5.576 5.576 0 0 1-4.087-1.272.6.6 0 0 1 .844-.854 4.5 4.5 0 0 0 3.238.927h.032a4.5 4.5 0 0 0 3.237-.927.6.6 0 1 1 .844.854zm-.331-3.256a1.726 1.726 0 1 1 1.709-1.712 1.717 1.717 0 0 1-1.712 1.712z" fill="#fff"/></svg></span></a><a class="the_champ_more" title="More" rel="nofollow noopener" style="font-size:24px!important;border:0;box-shadow:none;display:inline-block!important;font-size:16px;padding:0 4px;vertical-align: middle;display:inline;" href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" onclick="event.preventDefault()"><span class="the_champ_svg" style="background-color:#ee8e2d;width:40px;height:40px;margin:0;display:inline-block!important;opacity:1;float:left;font-size:32px!important;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;display:inline;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box;" onclick="theChampMoreSharingPopup(this, 'https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/', 'What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F', '' )"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-.3 0 32 32" version="1.1" width="100%" height="100%" style="display:block;" xml:space="preserve"><g><path fill="#fff" d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a></div></div>                    <p class="tags"><span class="tags-title">Tags:</span> <a href="https://www.cloudcomputing-news.net/news/tag/vmware/" rel="tag">VMware</a>, <a href="https://www.cloudcomputing-news.net/news/tag/workspace-one/" rel="tag">Workspace ONE</a></p>
+                            </div>
+
+        </div>
+    </section>
+            
+                <section class="comments-section">
+            <div class="grid-x grid-margin-x margin-top-2">
+                <div class="cell small-12 medium-4 large-4 large-offset-4">
+                    <div class="button btn full-width view-comments">View Comments</div>
+                </div>
+                <div class="cell small-12 medium-4 large-4">
+                    <div class="button invert btn full-width leave-comment">Leave a comment</div>
+                </div>
+                <div class="cell small-12 medium-8 large-8 large-offset-4">
+                    
+<div id="comments" class="comments-area">
+        
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.cloudcomputing-news.net/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required" aria-hidden="true">*</span></label> <textarea autocomplete="new-password"  id="c2df808188"  name="c2df808188"   cols="45" rows="8" maxlength="65525" required></textarea><textarea id="comment" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script data-noptimize>document.getElementById("comment").setAttribute( "id", "a23b22846a02f7d381edac96959bc627" );document.getElementById("c2df808188").setAttribute( "id", "comment" );</script></p><p class="comment-form-author"><label for="author">Name <span class="required" aria-hidden="true">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required" aria-hidden="true">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+
+<p class="wpgdprc-checkbox
+comment-form-wpgdprc">
+	<input type="checkbox" name="wpgdprc" id="wpgdprc" value="1"  />
+	<label for="wpgdprc">
+		By using this form you agree with the storage and handling of your data by this website. 
+<abbr class="wpgdprc-required" title="You need to accept this checkbox">*</abbr>
+	</label>
+</p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="button" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='97355' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="article-footer">
+                    </footer>
+
+
+
+    
+
+</article>
+                            </main>
+            <div id="sidebar" class="sidebar small-12 medium-5 large-3 cell" role="complementary">
+                <div id="gform_widget-7" class="widget gform_widget"><h4 class="widgettitle">Contact Us</h4><link rel='stylesheet' id='gforms_reset_css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.6.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/dom-ready.min.js?ver=d996b53411d1533a84951212ab6ac4ff' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2022-07-05 17:05:41+0000","generator":"GlotPress\/4.0.0-alpha.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-includes/js/dist/a11y.min.js?ver=a38319d7ba46c6e60f7f9d4c371222c5' id='wp-a11y-js'></script>
+<script type='text/javascript' defer='defer' src='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.6.4' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/www.cloudcomputing-news.net\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.cloudcomputing-news.net\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.cloudcomputing-news.net\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.6.4' id='gform_gravityforms-js'></script>
+<script type='text/javascript' defer='defer' src='https://www.google.com/recaptcha/api.js?hl=en&#038;ver=6.0#038;render=explicit' id='gform_recaptcha-js'></script>
+<script type="text/javascript"></script>
+                <div class='gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper' id='gform_wrapper_1' >
+                        <div class='gform_heading'>
+                            <span class='gform_description'>Reach an audience of more than 500,000 cloud computing professionals.</span>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/' > 
+ <input type='hidden' class='gforms-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' />
+                        <div class='gform_body gform-body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id="field_1_2"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_2"><label class='gfield_label' for='input_1_2' >First name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_2' id='input_1_2' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_1"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label' for='input_1_1' >Last name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_3"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label' for='input_1_3' >Company name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_3' id='input_1_3' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_4"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><label class='gfield_label' for='input_1_4' >Job title<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_4' id='input_1_4' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_5"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_5"><label class='gfield_label' for='input_1_5' >Phone number<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_phone'><input name='input_5' id='input_1_5' type='text' value='' class='large'   aria-required="true" aria-invalid="false"   /></div></li><li id="field_1_6"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_6"><label class='gfield_label' for='input_1_6' >Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_6' id='input_1_6' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_1_8"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_8"><label class='gfield_label gfield_label_before_complex'  >What is your enquiry regarding?<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_1_8'><li class='gchoice gchoice_1_8_1'>
+								<input class='gfield-choice-input' name='input_8.1' type='checkbox'  value='Digital Services'  id='choice_1_8_1'   />
+								<label for='choice_1_8_1' id='label_1_8_1'>Digital Services</label>
+							</li><li class='gchoice gchoice_1_8_2'>
+								<input class='gfield-choice-input' name='input_8.2' type='checkbox'  value='Virtual Events'  id='choice_1_8_2'   />
+								<label for='choice_1_8_2' id='label_1_8_2'>Virtual Events</label>
+							</li><li class='gchoice gchoice_1_8_3'>
+								<input class='gfield-choice-input' name='input_8.3' type='checkbox'  value='Webinars'  id='choice_1_8_3'   />
+								<label for='choice_1_8_3' id='label_1_8_3'>Webinars</label>
+							</li><li class='gchoice gchoice_1_8_4'>
+								<input class='gfield-choice-input' name='input_8.4' type='checkbox'  value='Roundtables'  id='choice_1_8_4'   />
+								<label for='choice_1_8_4' id='label_1_8_4'>Roundtables</label>
+							</li><li class='gchoice gchoice_1_8_5'>
+								<input class='gfield-choice-input' name='input_8.5' type='checkbox'  value='Other'  id='choice_1_8_5'   />
+								<label for='choice_1_8_5' id='label_1_8_5'>Other</label>
+							</li></ul></div></li><li id="field_1_9"  class="gfield field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_9"><label class='gfield_label' for='input_1_9' >Please add more information here</label><div class='ginput_container ginput_container_textarea'><textarea name='input_9' id='input_1_9' class='textarea medium'      aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id="field_1_10"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_10"><label class='gfield_label gfield_label_before_complex'  >I would like to subscribe to receive communications from Cloud Computing News about industry trends, news, upcoming events and digital marketing services. I understand that I can unsubscribe at any time.<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_1_10'><li class='gchoice gchoice_1_10_1'>
+								<input class='gfield-choice-input' name='input_10.1' type='checkbox'  value='Yes'  id='choice_1_10_1'   />
+								<label for='choice_1_10_1' id='label_1_10_1'>Yes</label>
+							</li><li class='gchoice gchoice_1_10_2'>
+								<input class='gfield-choice-input' name='input_10.2' type='checkbox'  value='No'  id='choice_1_10_2'   />
+								<label for='choice_1_10_2' id='label_1_10_2'>No</label>
+							</li></ul></div></li><li id="field_1_7"  class="gfield field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_1_7"><label class='gfield_label' for='input_1_7' >CAPTCHA</label><div id='input_1_7' class='ginput_container ginput_recaptcha' data-sitekey='6LcwKu0UAAAAAIxHQ40X7Kd4P4K8Yu05X5EcdnJw'  data-theme='light' data-tabindex='0'  data-badge=''></div></li></ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImU2M2ZmODk4ZmY3ZmNkNGMzZjY4NWJiMWZkMDUwYmIzIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div></div><div id="techforge-subscribe-widget-3" class="widget techforge-subscribe-widget">            <div class="grid-x subscribe-widget">
+                                    <h4 class="widgettitle">Join our community</h4>
+                    <h5>Create your free account now to access all our premium content and recieve the latest tech news to your inbox.</h5>
+                    <button class="button"><span class="login-switch">SUBSCRIBE NOW<span></button>
+                
+                              
+            </div>
+            </div><div id="techforge-post-types-5" class="widget techforge-post-types"><h4 class="widgettitle">LATEST ARTICLES</h4>                    <div class="posts-block">
+                        <div class="grid-x grid-margin-x">
+                                                            <div class="small-3 medium-4 large-4 cell thumb-holder">
+                                    <a href="https://www.cloudcomputing-news.net/news/2022/jul/04/idc-cloud-infrastructure-spending-this-year-hit-90-2b/" title="IDC predicts cloud infrastructure spending this year will hit $90.2B" class="img-link"><img width="150" height="150" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/idc-cloud-infrastructure-spending-research-report-shared-dedicated-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/idc-cloud-infrastructure-spending-research-report-shared-dedicated-150x150.jpg 150w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/07/idc-cloud-infrastructure-spending-research-report-shared-dedicated-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                </div>
+                                                        <div class="cell small-9 medium-8 large-8 title-holder">
+                                                                    
+                                <a href="https://www.cloudcomputing-news.net/news/2022/jul/04/idc-cloud-infrastructure-spending-this-year-hit-90-2b/"><h3 itemprop="headline">IDC predicts cloud infrastructure spending this year will hit $90.2B</h3>
+                                </a>
+                                                                    <div class="byline">
+                                        <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-infrastructure/" title="Cloud Computing Infrastructure News. Explore the latest infrastructure news and insights in cloud technology here at Cloud Tech News.">Infrastructure</a>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                        <div class="posts-block">
+                        <div class="grid-x grid-margin-x">
+                                                            <div class="small-3 medium-4 large-4 cell thumb-holder">
+                                    <a href="https://www.cloudcomputing-news.net/news/2022/jun/30/alibaba-data-as-a-service-firm-lingyang/" title="Alibaba launches ‘Data-as-a-Service’ firm Lingyang" class="img-link"><img width="150" height="150" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/lingyang-alibaba-cloud-daas-data-as-a-service-business-intelligence-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/lingyang-alibaba-cloud-daas-data-as-a-service-business-intelligence-150x150.png 150w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/lingyang-alibaba-cloud-daas-data-as-a-service-business-intelligence-125x125.png 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                </div>
+                                                        <div class="cell small-9 medium-8 large-8 title-holder">
+                                                                    
+                                <a href="https://www.cloudcomputing-news.net/news/2022/jun/30/alibaba-data-as-a-service-firm-lingyang/"><h3 itemprop="headline">Alibaba launches ‘Data-as-a-Service’ firm Lingyang</h3>
+                                </a>
+                                                                    <div class="byline">
+                                        <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/" title="Cloud Computing Applications News. Explore the latest news and insights on cloud applications here at Cloud Tech News.">Applications</a>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                        <div class="posts-block">
+                        <div class="grid-x grid-margin-x">
+                                                            <div class="small-3 medium-4 large-4 cell thumb-holder">
+                                    <a href="https://www.cloudcomputing-news.net/news/2022/jun/28/snowflake-celebrates-its-largest-ever-user-conference-with-launch-of-new-innovations/" title="Snowflake celebrates its largest-ever user conference with launch of new innovations" class="img-link"><img width="150" height="150" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/ND3A5121-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Snowflake Summit 2022 at the Caesars Forum." loading="lazy" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/ND3A5121-150x150.jpg 150w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/06/ND3A5121-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                </div>
+                                                        <div class="cell small-9 medium-8 large-8 title-holder">
+                                                                    
+                                <a href="https://www.cloudcomputing-news.net/news/2022/jun/28/snowflake-celebrates-its-largest-ever-user-conference-with-launch-of-new-innovations/"><h3 itemprop="headline">Snowflake celebrates its largest-ever user conference with launch of new innovations</h3>
+                                </a>
+                                                                    <div class="byline">
+                                        <a href="https://www.cloudcomputing-news.net/categories/cloud-computing/" title="Cloud Computing News. Explore the latest news and insights surrounding cloud technology here at Cloud Tech News.">Cloud Computing</a>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                        <div class="posts-block">
+                        <div class="grid-x grid-margin-x">
+                                                            <div class="small-3 medium-4 large-4 cell thumb-holder">
+                                    <a href="https://www.cloudcomputing-news.net/news/2022/jun/28/vmware-unveils-vsphere-and-vsan-to-simplify-operations-with-centralised-infrastructure-management/" title="VMware unveils vSphere+ and vSAN+ to simplify operations with Centralised Infrastructure Management" class="img-link"><img width="150" height="150" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/iStock_vmware2353476-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/iStock_vmware2353476-150x150.jpg 150w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/iStock_vmware2353476-125x125.jpg 125w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                </div>
+                                                        <div class="cell small-9 medium-8 large-8 title-holder">
+                                                                    
+                                <a href="https://www.cloudcomputing-news.net/news/2022/jun/28/vmware-unveils-vsphere-and-vsan-to-simplify-operations-with-centralised-infrastructure-management/"><h3 itemprop="headline">VMware unveils vSphere+ and vSAN+ to simplify operations with Centralised Infrastructure Management</h3>
+                                </a>
+                                                                    <div class="byline">
+                                        <a href="https://www.cloudcomputing-news.net/categories/cloud-computing-enterprise/cloud-computing-hybrid-cloud/" title="Hybrid Cloud Computing News. Explore the latest news and insights on hybrid cloud here at Cloud Tech News.">Hybrid Cloud</a>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                </div><div id="media_image-11" class="widget widget_media_image"><a href="https://digitaltransformation-week.com/northamerica/"><img width="300" height="250" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-300x250.png" class="image wp-image-97598  attachment-medium size-medium" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-300x250.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-240x200.png 240w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-342x285.png 342w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-100x83.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250-60x50.png 60w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2022/04/dtwna2022NEW_300x250.png 625w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="techforge-add-widget-9" class="widget techforge-add-widget">            <div class="grid-x ad-holder">
+                            </div>
+            </div>        </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer id="footer" class="footer" role="contentinfo">
+    <div class="grid-container">
+        <div class="inner-footer grid-x grid-margin-x grid-padding-x">
+            <div class="small-12 medium-12 large-4 cell">
+                                    <div id="nav_menu-3" class="widget widget_nav_menu"><h4 class="widgettitle">Other News</h4><div class="menu-other-news-container"><ul id="menu-other-news" class="menu"><li id="menu-item-92157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92157"><a target="_blank" rel="noopener" href="http://artificialintelligence-news.com/">Artificial Intelligence News</a></li>
+<li id="menu-item-92158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92158"><a target="_blank" rel="noopener" href="https://www.blockchaintechnology-news.com/">Blockchain News</a></li>
+<li id="menu-item-92159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92159"><a target="_blank" rel="noopener" href="https://edgecomputing-news.com/">Edge Computing News</a></li>
+<li id="menu-item-92160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92160"><a target="_blank" rel="noopener" href="https://www.developer-tech.com/">Developer News</a></li>
+<li id="menu-item-92161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92161"><a target="_blank" rel="noopener" href="https://www.marketingtechnews.net/">Digital Marketing News</a></li>
+<li id="menu-item-92163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92163"><a target="_blank" rel="noopener" href="https://www.iottechnews.com/">IoT News</a></li>
+<li id="menu-item-92164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92164"><a href="https://www.telecomstechnews.com/">Telecoms News</a></li>
+</ul></div></div>                            </div>
+            <div class="small-12 medium-12 large-4 cell">
+                                    <div id="nav_menu-4" class="widget widget_nav_menu"><h4 class="widgettitle">Events</h4><div class="menu-events-container"><ul id="menu-events" class="menu"><li id="menu-item-93617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93617"><a href="https://digitaltransformation-week.com/">Digital Transformation Week</a></li>
+<li id="menu-item-92131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92131"><a target="_blank" rel="noopener" href="http://www.developerevents.org/">Developer Events</a></li>
+<li id="menu-item-92132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92132"><a target="_blank" rel="noopener" href="https://www.iotevents.org/">IoT Events</a></li>
+<li id="menu-item-92133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92133"><a target="_blank" rel="noopener" href="https://www.marketing-events.net/">Marketing Events</a></li>
+<li id="menu-item-92134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92134"><a target="_blank" rel="noopener" href="https://www.telecomsevents.com/">Telecoms Events</a></li>
+<li id="menu-item-93618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93618"><a href="https://edgecomputing-expo.com/">Edge Computing Expo</a></li>
+</ul></div></div>                            </div>
+            <div class="small-12 medium-12 large-4 cell">
+                                    <div id="categories-list-widget-3" class="widget widget_categories-list-widget"><h4 class="widgettitle">Categories</h4><div class="category-list-widget"><ul><li ><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-aws/">AWS</a></li><li ><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-data-analytics/">Data &amp; Analytics</a></li><li ><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-google-cloud/">Google Cloud</a></li><li ><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-companies/cloud-computing-microsoft/">Microsoft</a></li><li ><a href="https://www.cloudcomputing-news.net/categories/cloud-computing-applications/cloud-computing-software-service/">Software as a Service</a></li></ul></div></div>                            </div>
+        </div>
+    </div>
+    
+            <div class="custom-message">
+            <div class="grid-container">
+                <div class="small-12 medium-12 large-12 cell">
+                    <div id="text-3" class="widget widget_text">			<div class="textwidget"><p>Cloud Tech promotes industry thought leadership content from industry brands, businesses and analysts, partnering with writers and bloggers to deliver insight and advice on cloud IT strategy to our extensive audience of CIOs and IT managers.</p>
+<p>Covering SaaS news, cloud computing jobs, virtualization strategy, cloud apps and enterprise IT, private and public cloud, system security, cloud apps, CRM and cloud communications, Cloud Tech provides the latest insight that enables CIOs to make informed decisions about IT strategy.</p>
+<p>For more information, visit our <a href="https://www.cloudcomputing-news.net/privacy-policy">privacy policy page here.</a></p>
+</div>
+		</div>                </div>
+            </div>
+        </div>
+        
+            <div class="site-logo-strip">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x large-margin-collapse">
+                    <div id="media_image-2" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="https://cloudcomputing-news.net/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy.png" class="image wp-image-93503  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-3" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="http://edgecomputing-news.com/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-8.png" class="image wp-image-93502  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-8.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-8-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-8-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-4" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="https://iottechnews.com/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-7.png" class="image wp-image-93501  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-7.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-7-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-7-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-5" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="https://blockchaintechnology-news.com/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-2.png" class="image wp-image-93496  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-2.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-2-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-2-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-6" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="http://artificialintelligence-news.com/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-5.png" class="image wp-image-93499  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-5.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-5-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-5-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-7" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="https://developer-tech.com/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-4.png" class="image wp-image-93498  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-4.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-4-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-4-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-8" class="widget widget_media_image cell small-6 medium-4 large-auto"><a href="http://marketingtechnews.net/"><img width="300" height="65" src="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-3.png" class="image wp-image-93497  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-3.png 300w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-3-100x22.png 100w, https://www.cloudcomputing-news.net/wp-content/uploads/sites/2/2020/10/Artboard-1-copy-3-60x13.png 60w" sizes="(max-width: 300px) 100vw, 300px" /></a></div>                </div>
+            </div>
+        </div>
+    
+    <div class="grid-container">
+        <div class="small-12 medium-12 large-12 cell">
+            <p class="copyright">Copyright &copy; 2022 Cloud Computing News. All Rights
+                Reserved.</p>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+<div class="the_champ_sharing_container the_champ_vertical_sharing the_champ_hide_sharing the_champ_bottom_sharing" data-heateor-ss-offset="-10" data-super-socializer-href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/"style="-webkit-box-shadow:none;box-shadow:none;left: -10px; top: 300px;width:44px;"><div class="the_champ_sharing_ul"><a class="the_champ_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg" style="background-color:#3c589a;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-5 -5 42 42"><path d="M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z" fill="#fff"></path></svg></span></a><a class="the_champ_button_twitter" href="https://twitter.com/intent/tweet?text=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F" title="Twitter" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_twitter" style="background-color:#55acee;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -4 39 39"><path d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z" fill="#fff"></path></svg></span></a><a class="the_champ_button_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a class="the_champ_button_reddit" href="https://reddit.com/submit?url=https%3A%2F%2Fwww.cloudcomputing-news.net%2Fnews%2F2022%2Ffeb%2F15%2Fwhat-is-vmware-workspace-one-and-why-should-you-give-it-a-go%2F&title=What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F" title="Reddit" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_reddit" style="background-color:#ff5700;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-3.5 -3.5 39 39"><path d="M28.543 15.774a2.953 2.953 0 0 0-2.951-2.949 2.882 2.882 0 0 0-1.9.713 14.075 14.075 0 0 0-6.85-2.044l1.38-4.349 3.768.884a2.452 2.452 0 1 0 .24-1.176l-4.274-1a.6.6 0 0 0-.709.4l-1.659 5.224a14.314 14.314 0 0 0-7.316 2.029 2.908 2.908 0 0 0-1.872-.681 2.942 2.942 0 0 0-1.618 5.4 5.109 5.109 0 0 0-.062.765c0 4.158 5.037 7.541 11.229 7.541s11.22-3.383 11.22-7.541a5.2 5.2 0 0 0-.053-.706 2.963 2.963 0 0 0 1.427-2.51zm-18.008 1.88a1.753 1.753 0 0 1 1.73-1.74 1.73 1.73 0 0 1 1.709 1.74 1.709 1.709 0 0 1-1.709 1.711 1.733 1.733 0 0 1-1.73-1.711zm9.565 4.968a5.573 5.573 0 0 1-4.081 1.272h-.032a5.576 5.576 0 0 1-4.087-1.272.6.6 0 0 1 .844-.854 4.5 4.5 0 0 0 3.238.927h.032a4.5 4.5 0 0 0 3.237-.927.6.6 0 1 1 .844.854zm-.331-3.256a1.726 1.726 0 1 1 1.709-1.712 1.717 1.717 0 0 1-1.712 1.712z" fill="#fff"/></svg></span></a><a class="the_champ_more" title="More" rel="nofollow noopener" style="font-size:24px!important;border:0;box-shadow:none;display:inline-block!important;font-size:16px;padding:0 4px;vertical-align: middle;display:inline;" href="https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" onclick="event.preventDefault()"><span class="the_champ_svg" style="background-color:#ee8e2d;width:40px;height:40px;margin:0;display:inline-block!important;opacity:1;float:left;font-size:32px!important;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;display:inline;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box;" onclick="theChampMoreSharingPopup(this, 'https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/', 'What%20is%20VMware%20Workspace%20ONE%2C%20and%20why%20should%20you%20give%20it%20a%20go%3F', '' )"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-.3 0 32 32" version="1.1" width="100%" height="100%" style="display:block;" xml:space="preserve"><g><path fill="#fff" d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span></a></div></div><a href="#techforge" class="scroll-to-top" data-smooth-scroll title="Back to top"><i class="icon icon-chevron-up"></i></a>
+
+<div class="reveal register" id="loginModal" data-reveal data-close-on-click="false">
+	<div class="grid-x grid-margin-x">
+					<div id="login-form" class="cell small-12 medium-12 large-12">
+				<link rel='stylesheet' id='gform_basic-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css'  href='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.6.4' type='text/css' media='all' />
+<div id="gform_login_widget-3" class="widget gform_login_widget"><h4 class="widgettitle">Login</h4><div class='gf_browser_chrome gform_wrapper gf_login_form gravity-theme' id='gform_wrapper_0'><form method='post' id='gform_0'><input type='hidden' name='login_redirect' value='https://www.cloudcomputing-news.net/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/' /><div class='gform_body'><div id='gform_fields_login' class='gform_fields top_label'><div id="field_0_1"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_0_1"><label class='gfield_label' for='input_1' >Username<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1' type='text' value='' class=''   tabindex='1'  aria-required="true" aria-invalid="false"   /> </div></div><div id="field_0_2"  class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_0_2"><label class='gfield_label' for='input_2' >Password<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_2' id='input_2' type='password' value='' class=''   tabindex='2'  aria-required="true" aria-invalid="false"   /> </div></div><div id="field_0_3"  class="gfield field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_0_3"><label class='gfield_label screen-reader-text gfield_label_before_complex'  ></label><div class='ginput_container ginput_container_checkbox'><div class='gfield_checkbox' id='input_3'><div class='gchoice gchoice_3'>
+						<input class='gfield-choice-input' name='input_3.1' type='checkbox'  value='1'  id='choice_3' tabindex='3'  />
+						<label for='choice_3' id='label_3'>Remember Me</label>
+					</div></div></div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_0' class='gform_button button' value='Login' tabindex='4' onclick='if(window["gf_submitting_0"]){return false;}  window["gf_submitting_0"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_0"]){return false;} window["gf_submitting_0"]=true;  jQuery("#gform_0").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_0' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='0' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='62c9a1a0e3d41' />
+            <input type='hidden' class='gform_hidden' name='state_0' value='WyJbXSIsImU2M2ZmODk4ZmY3ZmNkNGMzZjY4NWJiMWZkMDUwYmIzIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_0' id='gform_target_page_number_0' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_0' id='gform_source_page_number_0' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div></form></div><nav class="gf_login_links"><a href="/wp-login.php?action=lostpassword" title="Forgot Password?">Forgot Password?</a><br /></nav></div>								<div class="reg-footer cell small-12 medium-12 large-12 text-center">
+				<!--<img src="/assets/images/src/login-logo.png"/>-->
+					<p>Not subscribed / a member yet?</p>
+					<button class="button login-switch" aria-label="login" type="button">
+						<span aria-hidden="false">REGISTER HERE TO SUBSCRIBE NOW</span>
+					</button>
+				</div>
+			</div>
+							<div id="reg-form" data-step="1" class="cell small-12 medium-12 large-12">
+				<div id="gform_widget-5" class="widget gform_widget"><h4 class="widgettitle">Register</h4><link rel='stylesheet' id='dashicons-css'  href='https://www.cloudcomputing-news.net/wp-includes/css/dashicons.min.css?ver=6.0' type='text/css' media='all' />
+<script type='text/javascript' defer='defer' src='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/js/chosen.jquery.min.js?ver=2.6.4' id='gform_chosen-js'></script>
+<script type='text/javascript' defer='defer' src='https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.6.4' id='gform_placeholder-js'></script>
+
+                <div class='gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper' id='gform_wrapper_10' ><div id='gf_10' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_10' id='gform_10'  action='/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/#gf_10' > 
+ <input type='hidden' class='gforms-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' />
+                        <div class='gform_body gform-body'><ul id='gform_fields_10' class='gform_fields top_label form_sublabel_below description_below'><li id="field_10_17"  class="gfield gsection personal field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_17"><h2 class="gsection_title">Personal Details</h2></li><li id="field_10_5"  class="gfield personal gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_5"><label class='gfield_label' for='input_10_5' >First Names<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_5' id='input_10_5' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_10_6"  class="gfield personal gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_6"><label class='gfield_label' for='input_10_6' >Last Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_6' id='input_10_6' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_10_24"  class="gfield personal populate interest fancy-multi gfield_contains_required field_sublabel_below field_description_above gfield_visibility_visible"  data-js-reload="field_10_24"><label class='gfield_label' for='input_10_24' >Interests<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_multiselect'><select multiple='multiple'  size='7' name='input_24[]' id='input_10_24' class='large gfield_select'   aria-invalid="false" aria-required="true" ><option value='ai' >AI</option><option value='big-data' >Big Data</option><option value='blockchain' >Blockchain</option><option value='cloud' selected='selected'>Cloud</option><option value='cyber-security' >Cyber Security</option><option value='data-centres' >Data Centres</option><option value='devops' >DevOps</option><option value='digital-transformation' >Digital Transformation</option><option value='edge-computing' >Edge Computing</option><option value='enterprise' >Enterprise</option><option value='futureworks' >Futureworks</option><option value='high-performance-computing' >High Performance Computing</option><option value='iot' >IoT</option><option value='marketing-tech' >Marketing Tech</option><option value='quantum-computing' >Quantum Computing</option><option value='vr-ar-xr' >VR/AR/XR</option></select></div></li><li id="field_10_7"  class="gfield personal gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_7"><label class='gfield_label' for='input_10_7' >Country<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_7' id='input_10_7' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Country</option><option value='United Kingdom' >United Kingdom</option><option value='United States' >United States</option><option value='Afghanistan' >Afghanistan</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Anguilla' >Anguilla</option><option value='Antarctica' >Antarctica</option><option value='Antigua and Barbuda' >Antigua and Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Aruba' >Aruba</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bonaire, Sint Eustatius and Saba' >Bonaire, Sint Eustatius and Saba</option><option value='Bosnia and Herzegovina' >Bosnia and Herzegovina</option><option value='Botswana' >Botswana</option><option value='Bouvet Island' >Bouvet Island</option><option value='Brazil' >Brazil</option><option value='British Indian Ocean Territory' >British Indian Ocean Territory</option><option value='Brunei Darussalam' >Brunei Darussalam</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cape Verde' >Cape Verde</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Christmas Island' >Christmas Island</option><option value='Cocos Islands' >Cocos Islands</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo, Democratic Republic of the' >Congo, Democratic Republic of the</option><option value='Congo, Republic of the' >Congo, Republic of the</option><option value='Cook Islands' >Cook Islands</option><option value='Costa Rica' >Costa Rica</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Curaçao' >Curaçao</option><option value='Cyprus' >Cyprus</option><option value='Czech Republic' >Czech Republic</option><option value='Côte d&#039;Ivoire' >Côte d&#039;Ivoire</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Eswatini (Swaziland)' >Eswatini (Swaziland)</option><option value='Ethiopia' >Ethiopia</option><option value='Falkland Islands' >Falkland Islands</option><option value='Faroe Islands' >Faroe Islands</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Guiana' >French Guiana</option><option value='French Polynesia' >French Polynesia</option><option value='French Southern Territories' >French Southern Territories</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Gibraltar' >Gibraltar</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guadeloupe' >Guadeloupe</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guernsey' >Guernsey</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Heard and McDonald Islands' >Heard and McDonald Islands</option><option value='Holy See' >Holy See</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran' >Iran</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Isle of Man' >Isle of Man</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jersey' >Jersey</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Lao People&#039;s Democratic Republic' >Lao People&#039;s Democratic Republic</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libya' >Libya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macau' >Macau</option><option value='Macedonia' >Macedonia</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Martinique' >Martinique</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mayotte' >Mayotte</option><option value='Mexico' >Mexico</option><option value='Micronesia' >Micronesia</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Montserrat' >Montserrat</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='New Caledonia' >New Caledonia</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Niue' >Niue</option><option value='Norfolk Island' >Norfolk Island</option><option value='North Korea' >North Korea</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestine, State of' >Palestine, State of</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Pitcairn' >Pitcairn</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Romania' >Romania</option><option value='Russia' >Russia</option><option value='Rwanda' >Rwanda</option><option value='Réunion' >Réunion</option><option value='Saint Barthélemy' >Saint Barthélemy</option><option value='Saint Helena' >Saint Helena</option><option value='Saint Kitts and Nevis' >Saint Kitts and Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Martin' >Saint Martin</option><option value='Saint Pierre and Miquelon' >Saint Pierre and Miquelon</option><option value='Saint Vincent and the Grenadines' >Saint Vincent and the Grenadines</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome and Principe' >Sao Tome and Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia' >Serbia</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Sint Maarten' >Sint Maarten</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='South Georgia' >South Georgia</option><option value='South Korea' >South Korea</option><option value='South Sudan' >South Sudan</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Suriname' >Suriname</option><option value='Svalbard and Jan Mayen Islands' >Svalbard and Jan Mayen Islands</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syria' >Syria</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania' >Tanzania</option><option value='Thailand' >Thailand</option><option value='Timor-Leste' >Timor-Leste</option><option value='Togo' >Togo</option><option value='Tokelau' >Tokelau</option><option value='Tonga' >Tonga</option><option value='Trinidad and Tobago' >Trinidad and Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkey' >Turkey</option><option value='Turkmenistan' >Turkmenistan</option><option value='Turks and Caicos Islands' >Turks and Caicos Islands</option><option value='Tuvalu' >Tuvalu</option><option value='US Minor Outlying Islands' >US Minor Outlying Islands</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Venezuela' >Venezuela</option><option value='Vietnam' >Vietnam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Wallis and Futuna' >Wallis and Futuna</option><option value='Western Sahara' >Western Sahara</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option><option value='Åland Islands' >Åland Islands</option></select></div></li><li id="field_10_27"  class="gfield region populate personal gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_27"><label class='gfield_label' for='input_10_27' >Region<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_27' id='input_10_27' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Region</option><option value='asia-pacific' >Asia-Pacific</option><option value='central-south-america' >Central &amp; South America</option><option value='europe' >Europe</option><option value='middleeast-africa' >Middle East &amp; Africa</option><option value='north-america' >North America</option></select></div></li><li id="field_10_18"  class="gfield gsection company field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_18"><h2 class="gsection_title">Company Details</h2></li><li id="field_10_10"  class="gfield company gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_10"><label class='gfield_label' for='input_10_10' >Company Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_10_10' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_10_11"  class="gfield company gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_11"><label class='gfield_label' for='input_10_11' >Job Title<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_11' id='input_10_11' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></li><li id="field_10_26"  class="gfield job_type populate company gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_26"><label class='gfield_label' for='input_10_26' >Job Type<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_26' id='input_10_26' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Job Type</option><option value='founder-partner' >Founder / Partner</option><option value='cxo' >CxO</option><option value='director' >Director</option><option value='vp' >VP</option><option value='senior-manager' >Senior Manager</option><option value='manager' >Manager</option><option value='developer' >Developer</option><option value='other' >Other</option></select></div></li><li id="field_10_8"  class="gfield personal gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_8"><label class='gfield_label' for='input_10_8' >Phone<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_phone'><input name='input_8' id='input_10_8' type='text' value='' class='large'   aria-required="true" aria-invalid="false"   /></div></li><li id="field_10_15"  class="gfield company populate company_type gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_15"><label class='gfield_label' for='input_10_15' >Company Type<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_15' id='input_10_15' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Company Type</option><option value='consultancy-advisor-research' >Consultancy / Advisor / Research</option><option value='enterprise-sme' >Enterprise / SME</option><option value='investor-vc' >Investor / VC</option><option value='press-media' >Press / Media</option><option value='public-sector' >Public Sector</option><option value='service-provider' >Service Provider</option><option value='startup' >Start-up</option><option value='system-integrator' >System Integrator</option><option value='technology-solution-provider' >Technology Solution Provider</option></select></div></li><li id="field_10_16"  class="gfield company populate industry gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_16"><label class='gfield_label' for='input_10_16' >Industry<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_16' id='input_10_16' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Select Industry</option><option value='automotive-transport-logistics' >Automotive / Transport / Logistics</option><option value='built-environment' >Built Environment (Inc Real Estate, Construction, Facilities and Cities)</option><option value='business-functions' >Business Functions (Inc Marketing, HR)</option><option value='communications' >Communications (Inc Telcos, 5G)</option><option value='consultancy-advisor-research' >Consultancy / Advisor / Research</option><option value='consumer-goods-retail' >Consumer Goods / Retail</option><option value='financial-services' >Financial services (Inc Banking, Insurance)</option><option value='healthcare' >Healthcare (Inc Pharma)</option><option value='it-services' >IT Services</option><option value='manufacturing-supplychain' >Manufacturing / Supply Chain</option><option value='media-pr' >Media / PR (Inc Government, NfP, Education, Defence)</option><option value='platforms' >Platforms (inc Software, Hardware, Web, Cloud)</option><option value='public-sector' >Public Sector (Inc Government, NfP, Education, Defence)</option><option value='regulation-compliance-law' >Regulation / Compliance / Law</option><option value='utilities-energy' >Utilities / Energy</option></select></div></li><li id="field_10_19"  class="gfield gsection account field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_19"><h2 class="gsection_title">Account Details</h2></li><li id="field_10_13"  class="gfield account gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_13"><label class='gfield_label' for='input_10_13' >Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_13' id='input_10_13' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_10_14"  class="gfield account gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_14"><label class='gfield_label' for='input_10_14' >Username<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_14' id='input_10_14' type='text' value='' class='large'  aria-describedby="input_10_14_desc gfield_description_10_14"   aria-required="true" aria-invalid="false"   /> </div><div class='gfield_description' id='gfield_description_10_14'>This must be a combination of letters and numbers</div></li><li id="field_10_3"  class="gfield account set-password gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_3"><label class='gfield_label gfield_label_before_complex'  >Password<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_complex ginput_container ginput_container_password' id='input_10_3_container'>
+						<span id='input_10_3_1_container' class='ginput_left'>
+							<span class='password_input_container'>
+							<input autocomplete='new-password' type='password' name='input_3' id='input_10_3'   value=''   aria-required="true" aria-invalid="false"  />
+							<button autocomplete='new-password' type='button' class='gform_show_password' onclick='javascript:gformToggleShowPassword("input_10_3");' label='Show Password' data-label-show='Show Password' data-label-hide='Hide Password'><span class='dashicons dashicons-hidden' aria-hidden='true'></span></button>
+							</span>
+							<label for='input_10_3' >Enter Password</label>
+						</span>
+						<span id='input_10_3_2_container' class='ginput_right'>
+							<span class='password_input_container'>
+							<input autocomplete='new-password' type='password' name='input_3_2' id='input_10_3_2'   value=''   aria-required="true" aria-invalid="false" />
+							<button autocomplete='new-password' type='button' class='gform_show_password' onclick='javascript:gformToggleShowPassword("input_10_3_2");' label='Show Password' data-label-show='Show Password' data-label-hide='Hide Password'><span class='dashicons dashicons-hidden' aria-hidden='true'></span></button>
+							</span>
+							<label for='input_10_3_2' >Confirm Password</label>
+						</span>
+						<div class='gf_clear gf_clear_complex'></div>
+					</div></li><li id="field_10_22"  class="gfield account gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_10_22"><label class='gfield_label gfield_label_before_complex'  >Consent<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_consent'><input name='input_22.1' id='input_10_22_1' type='checkbox' value='1'  aria-describedby="gfield_consent_description_10_22 gfield_description_10_22" aria-required="true" aria-invalid="false"   /> <label class="gfield_consent_label" for='input_10_22_1' >I agree to the <a target="blank" href="/privacy-policy/">privacy policy</a>.</label><span class="gfield_required gfield_required_asterisk">*</span><input type='hidden' name='input_22.2' value='I agree to the &lt;a target=&quot;blank&quot; href=&quot;/privacy-policy/&quot;&gt;privacy policy&lt;/a&gt;.' class='gform_hidden' /><input type='hidden' name='input_22.3' value='9' class='gform_hidden' /></div><div class='gfield_description gfield_consent_description' id='gfield_consent_description_10_22'>By submitting this form, I acknowledge that I have read and understood the Privacy Policy and subscribe to receive communications from TechForge Media Ltd.<br />
+<a target="blank" href="/privacy-policy">View privacy policy</a></div></li><li id="field_10_28"  class="gfield account field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_28"><label class='gfield_label' for='input_10_28' >CAPTCHA</label><div id='input_10_28' class='ginput_container ginput_recaptcha' data-sitekey='6LcwKu0UAAAAAIxHQ40X7Kd4P4K8Yu05X5EcdnJw'  data-theme='light' data-tabindex='0'  data-badge=''></div></li><li id="field_10_25"  class="gfield hidden populate sites field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_25"><label class='gfield_label' for='input_10_25' >Sites  - hidden - records where signed up</label><div class='ginput_container ginput_container_multiselect'><select multiple='multiple'  size='7' name='input_25[]' id='input_10_25' class='large gfield_select'   aria-invalid="false"  ><option value='ai' >AI</option><option value='blockchain' >Blockchain</option><option value='cloud' selected='selected'>Cloud</option><option value='developer' >Developer</option><option value='edge' >Edge</option><option value='enterprise' >Enterprise</option><option value='iot' >IoT</option><option value='marketing' >Marketing</option><option value='telecoms' >Telecoms</option><option value='vr' >VR</option></select></div></li><li id="field_10_23"  class="gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_10_23"><div class="reg-step"><p>Step 1 of 3</p></div>
+                <div id="step-buttons" class="cell small-12 medium-12 large-12 text-left">
+                    <button id="back-switch" class="button disabled" aria-label="back-step" type="button">
+                        <span aria-hidden="false">BACK</span>
+                    </button>
+                    <button id="next-switch" class="button" aria-label="next-step" type="button">
+                        <span aria-hidden="false">NEXT</span>
+                    </button>
+                </div></li></ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_10' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_10"]){return false;}  window["gf_submitting_10"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_10"]){return false;} window["gf_submitting_10"]=true;  jQuery("#gform_10").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=10&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_10' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='10' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_10' value='WyJ7XCIyMi4xXCI6XCIwMGE1Y2NjMTAyZmVmMzRiOTVmYzA1ZDJlNzc3ODUxNFwiLFwiMjIuMlwiOlwiNGQ5ODA0NjhiOTMzM2FkN2Q3OGUwNDI1OWRjMTA3MjZcIixcIjIyLjNcIjpcIjVlNmViZmQxZjFkMTVjZTM2ZjIzYjNmZDRiYjAzZDE1XCJ9IiwiOTYzOGVjMmQ4OTc2ZTI3YmRhMWQzZGE4Y2Q1ODkyZGMiXQ==' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_10' id='gform_target_page_number_10' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_10' id='gform_source_page_number_10' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_10' id='gform_ajax_frame_10' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+                <script type="text/javascript">
+gform.initializeOnLoaded( function() {gformInitSpinner( 10, 'https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery('#gform_ajax_frame_10').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_10');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_10').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_10').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_10').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_10').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_10').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_10').val();gformInitSpinner( 10, 'https://www.cloudcomputing-news.net/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery(document).trigger('gform_page_loaded', [10, current_page]);window['gf_submitting_10'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_10').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_10').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [10]);window['gf_submitting_10'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_10').text());}, 50);}else{jQuery('#gform_10').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [10, current_page]);} );} );
+</script>
+</div>
+				<div class="reg-footer cell small-12 medium-12 large-12 text-center">
+					<!--<img src="https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/images/src/login-logo.png"/>-->
+					<p>Already a member / subscriber?</p>
+					<button class="button login-switch" aria-label="login" type="button">
+						<span aria-hidden="false">LOGIN HERE</span>
+					</button>
+				</div>
+			</div>
+				<div class="cell small-12 medium-12 large-12">
+					</div>
+	</div>
+
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+<div class="gdpr gdpr-overlay"></div>
+<div class="gdpr gdpr-privacy-bar" style="display:none;">
+	<div class="gdpr-wrapper">
+		<div class="gdpr-content">
+			<p>Accessing our website tells us you are happy to receive all our cookies. If you need more information find out more on our privacy policy page.</p>
+		</div>
+		<div class="gdpr-right">
+						<div class="gdpr-buttons">
+				<button class="gdpr-preferences" type="button">Privacy Preferences</button>
+				<button class="gdpr-agreement" type="button">I Agree</button>
+			</div>
+			<span class="gdpr-close"></span>
+		</div>
+	</div>
+</div>
+
+<div class="gdpr gdpr-privacy-preferences">
+	<div class="gdpr-wrapper">
+		<form method="post" class="gdpr-privacy-preferences-frm">
+			<input type="hidden" name="action" value="gdpr_update_privacy_preferences">
+			<input type="hidden" id="update-privacy-preferences-nonce" name="update-privacy-preferences-nonce" value="55cdcb70a2" /><input type="hidden" name="_wp_http_referer" value="/news/2022/feb/15/what-is-vmware-workspace-one-and-why-should-you-give-it-a-go/" />			<header>
+				<div class="gdpr-box-title">
+					<h3>Privacy Preference Center</h3>
+					<span class="gdpr-close"></span>
+				</div>
+			</header>
+			<div class="gdpr-mobile-menu">
+				<button type="button">Options</button>
+			</div>
+			<div class="gdpr-content">
+				<div class="gdpr-tabs">
+					<ul class="">
+						<li><button type="button" class="gdpr-tab-button gdpr-active" data-target="gdpr-consent-management">Consent Management</button></li>
+																	</ul>
+					<ul class="gdpr-policies">
+																													<li><a href="https://www.cloudcomputing-news.net/privacy-policy/" target="_blank">Privacy Policy</a></li>
+																		</ul>
+				</div>
+				<div class="gdpr-tab-content">
+					<div class="gdpr-consent-management gdpr-active">
+						<header>
+							<h4>Consent Management</h4>
+						</header>
+						<div class="gdpr-info">
+							<p>Accessing our website tells us you are happy to receive all our cookies. If you need more information find out more on our privacy policy page.</p>
+																								<div class="gdpr-cookies-used">
+										<div class="gdpr-cookie-title">
+											<p>Privacy Policy</p>
+																							<span class="gdpr-always-active">Required</span>
+												<input type="hidden" name="user_consents[]" value="privacy-policy" style="display:none;">
+																					</div>
+										<div class="gdpr-cookies">
+											<span>You have read and agreed to our Privacy Policy</span>
+										</div>
+									</div>
+																					</div>
+					</div>
+														</div>
+				<input type="hidden" name="all_cookies" value="[]">
+			</div>
+			<footer>
+				<input type="submit" value="Save Preferences">
+			</footer>
+		</form>
+	</div>
+</div>
+
+<div class="gdpr gdpr-general-confirmation">
+	<div class="gdpr-wrapper">
+		<header>
+			<div class="gdpr-box-title">
+				<h3></h3>
+				<span class="gdpr-close"></span>
+			</div>
+		</header>
+		<div class="gdpr-content">
+			<p></p>
+		</div>
+		<footer>
+			<button class="gdpr-ok" data-callback="closeNotification">OK</button>
+		</footer>
+	</div>
+</div>
+	<div id="fb-root"></div>
+	<script type='text/javascript' id='TechForge-js-extra'>
+/* <![CDATA[ */
+var techforgeRequests = {"ajaxurl":"https:\/\/www.cloudcomputing-news.net\/wp-admin\/admin-ajax.php","_nonce":"967836b33c"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/scripts/scripts.js?ver=1613499312' id='TechForge-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/scripts/libraries/jquery.waypoints.min.js?ver=1.0.0' id='TechForge-waypoints-js'></script>
+<script type='text/javascript' src='https://www.cloudcomputing-news.net/wp-content/themes/TechForge/assets/scripts/libraries/jquery.multiselect.js?ver=1.0.0' id='TechForge-multiselect-js'></script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 10) {gformInitChosenFields('#input_10_7,#input_10_27','No results matched');if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){gformInitChosenFields('#input_10_7,#input_10_27','No results matched');} ) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [10, 1]) } );
+</script>
+</body>
+</html>
