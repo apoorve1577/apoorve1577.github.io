@@ -71,13 +71,13 @@ body {
   color: white; /* White text color */
 }
 
-.java {width: 90%; background-color: #04aa20ab;} /* Green */
-.spring {width: 80%; background-color: #d30c1d;} /* Blue */
-.python {width: 65%; background-color: #5c0ae0;} /* Red */
-.docker {width: 60%; background-color: #c8f10d;}
-.sql {width: 60%; background-color: #db0ce2;}
-.c {width: 60%; background-color: #e97203;}
-.react {width: 60%; background-color: #0c34e2;} /* Dark Grey */
+.java {width: 90%; background-color: #04aa20ab;}
+.spring {width: 80%; background-color: #d30c1d;}
+.python {width: 70%; background-color: #5b03e7;}
+.docker {width: 70%; background-color: #c8f10d;}
+.sql {width: 80%; background-color: #db0ce2;}
+.c {width: 90%; background-color: #e97203;}
+.react {width: 60%; background-color: hsl(150, 63%, 23%);}
 
 mark {
 	background-color: transparent;
