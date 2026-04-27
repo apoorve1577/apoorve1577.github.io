@@ -1,149 +1,709 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Apoorve Bhargava Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apoorve Bhargava — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #111827;
+      --bg2: #1a2235;
+      --bg3: #1f2d42;
+      --border: rgba(255,255,255,0.10);
+      --accent: #4f8ef7;
+      --accent2: #7c3aed;
+      --text: #f0f4f8;
+      --muted: #94a3b8;
+      --card: rgba(255,255,255,0.06);
+      --card-hover: rgba(255,255,255,0.10);
+      --glow: rgba(79,142,247,0.15);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 4rem;
+      background: rgba(17,24,39,0.90);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 1.1rem; font-weight: 700; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 0.875rem;
+      font-weight: 500; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      padding: 8rem 4rem 4rem;
+      position: relative; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 80% 60% at 20% 40%, rgba(79,142,247,0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 50% at 80% 60%, rgba(124,58,237,0.06) 0%, transparent 60%);
+    }
+    .hero-grid {
+      position: absolute; inset: 0; pointer-events: none;
+      background-image: linear-gradient(var(--border) 1px, transparent 1px),
+                        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+    .hero-inner { max-width: 900px; position: relative; z-index: 1; }
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
+      color: var(--accent); border: 1px solid rgba(79,142,247,0.3);
+      background: rgba(79,142,247,0.08);
+      padding: 0.35rem 0.75rem; border-radius: 100px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-tag::before { content: '●'; font-size: 0.6rem; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800; letter-spacing: -0.03em;
+      line-height: 1.05; margin-bottom: 1rem;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #fff 0%, #a0c4ff 50%, var(--accent) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-sub {
+      font-size: 1.15rem; color: var(--muted); max-width: 600px;
+      margin-bottom: 2.5rem; line-height: 1.7;
+    }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.75rem 1.5rem; border-radius: 8px;
+      font-size: 0.9rem; font-weight: 600; text-decoration: none;
+      transition: all 0.2s; cursor: pointer; border: none;
+    }
+    .btn-primary {
+      background: var(--accent); color: #fff;
+      box-shadow: 0 0 24px rgba(79,142,247,0.3);
+    }
+    .btn-primary:hover { background: #6ba3ff; box-shadow: 0 0 32px rgba(79,142,247,0.45); transform: translateY(-1px); }
+    .btn-ghost {
+      background: var(--card); color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover { background: var(--card-hover); transform: translateY(-1px); }
+
+    .hero-stats {
+      display: flex; gap: 3rem; margin-top: 4rem;
+      padding-top: 2rem; border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .stat-num { font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; color: var(--text); }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 6rem 4rem; max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem; color: var(--accent);
+      text-transform: uppercase; letter-spacing: 0.15em;
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 800; letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+    .section-sub { color: var(--muted); max-width: 550px; margin-bottom: 3rem; }
+
+    /* ─── ABOUT ─── */
+    #about { padding-top: 4rem; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+    .about-text p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
+    .about-text p strong { color: var(--text); font-weight: 600; }
+    .about-cards { display: flex; flex-direction: column; gap: 1rem; }
+    .about-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 1.5rem;
+      transition: all 0.2s;
+    }
+    .about-card:hover { background: var(--card-hover); border-color: rgba(79,142,247,0.2); }
+    .about-card-icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
+    .about-card-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .about-card-text { color: var(--muted); font-size: 0.82rem; }
+
+    /* ─── EXPERIENCE ─── */
+    #experience { background: var(--bg2); max-width: 100%; padding: 6rem 0; }
+    #experience .inner { max-width: 1100px; margin: 0 auto; padding: 0 4rem; }
+    .timeline { position: relative; margin-top: 3rem; }
+    .timeline::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 1px; background: var(--border);
+    }
+    .exp-item {
+      position: relative; padding-left: 2.5rem; margin-bottom: 3rem;
+    }
+    .exp-item::before {
+      content: ''; position: absolute; left: -4px; top: 0.35rem;
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--accent); box-shadow: 0 0 12px var(--accent);
+    }
+    .exp-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.25rem; }
+    .exp-title { font-size: 1.05rem; font-weight: 700; }
+    .exp-date {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+      color: var(--muted); white-space: nowrap;
+    }
+    .exp-company { color: var(--accent); font-size: 0.9rem; font-weight: 500; margin-bottom: 0.75rem; }
+    .exp-company span { color: var(--muted); font-weight: 400; }
+    .exp-bullets { list-style: none; }
+    .exp-bullets li {
+      color: var(--muted); font-size: 0.875rem; line-height: 1.6;
+      padding-left: 1rem; position: relative; margin-bottom: 0.4rem;
+    }
+    .exp-bullets li::before {
+      content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 0.75rem;
+    }
+    .exp-bullets li strong { color: var(--text); font-weight: 500; }
+
+    /* ─── SKILLS ─── */
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .skill-group {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.5rem;
+      transition: all 0.2s;
+    }
+    .skill-group:hover { background: var(--card-hover); border-color: rgba(79,142,247,0.2); }
+    .skill-group-title {
+      font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--accent); margin-bottom: 1rem;
+    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tag {
+      font-size: 0.78rem; padding: 0.3rem 0.7rem; border-radius: 6px;
+      background: rgba(255,255,255,0.06); color: var(--muted);
+      border: 1px solid var(--border); font-family: 'JetBrains Mono', monospace;
+      transition: all 0.15s;
+    }
+    .tag:hover { color: var(--text); border-color: rgba(79,142,247,0.3); background: rgba(79,142,247,0.08); }
+
+    /* ─── PROJECTS ─── */
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+    .project-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.75rem;
+      transition: all 0.25s; position: relative; overflow: hidden;
+    }
+    .project-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      opacity: 0; transition: opacity 0.2s;
+    }
+    .project-card:hover { background: var(--card-hover); border-color: rgba(79,142,247,0.2); transform: translateY(-2px); }
+    .project-card:hover::before { opacity: 1; }
+    .project-type {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+      color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em;
+      margin-bottom: 0.75rem;
+    }
+    .project-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .project-stack { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.75rem; font-family: 'JetBrains Mono', monospace; }
+    .project-desc { color: var(--muted); font-size: 0.85rem; line-height: 1.7; }
+
+    /* ─── CONTACT ─── */
+    #contact { text-align: center; }
+    .contact-card {
+      background: var(--bg3); border: 1px solid var(--border);
+      border-radius: 20px; padding: 4rem; max-width: 600px; margin: 0 auto;
+      position: relative; overflow: hidden;
+    }
+    .contact-card::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(79,142,247,0.07) 0%, transparent 60%);
+    }
+    .contact-card > * { position: relative; z-index: 1; }
+    .contact-links { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }
+    .contact-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.65rem 1.25rem; border-radius: 8px;
+      font-size: 0.875rem; font-weight: 500; text-decoration: none;
+      background: var(--card); color: var(--text); border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .contact-link:hover { background: var(--card-hover); border-color: rgba(79,142,247,0.3); transform: translateY(-1px); }
+
+    /* ─── FOOTER ─── */
+    footer {
+      text-align: center; padding: 2rem; color: var(--muted);
+      font-size: 0.8rem; border-top: 1px solid var(--border);
+    }
+
+    /* ─── SCROLL ANIMATIONS ─── */
+    .fade-in {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      #hero { padding: 7rem 1.5rem 3rem; }
+      section { padding: 4rem 1.5rem; }
+      #experience .inner { padding: 0 1.5rem; }
+      .about-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 2rem; }
+      .contact-card { padding: 2.5rem 1.5rem; }
+    }
+
+    /* ─── SCROLLBAR ─── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+  </style>
 </head>
-<body class="is-preload">
+<body>
 
-<!-- Wrapper -->
-<div id="wrapper" class="fade-in">
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">AB</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-	<!-- Intro -->
-	<div id="intro">
-		<h2>Hi, Welcome to Apoorve Bhargava's Portfolio</h2>
-		<p>A passionate Software Engineer currently studying Masters of Computer Science at University of North Carolina, Charlotte</p>
-		<ul class="actions">
-			<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-		</ul>
-	</div>
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-tag">Available for opportunities</div>
+    <h1><span class="gradient-text">Apoorve Bhargava</span></h1>
+    <h1 style="color: var(--muted); font-size: clamp(1.8rem, 4vw, 3rem); margin-top: 0.25rem;">
+      Senior Software Engineer
+    </h1>
+    <p class="hero-sub">
+      Building distributed cloud infrastructure at AWS. Specializing in large-scale systems,
+      AI-integrated platforms, and software compliance infrastructure serving hundreds of
+      millions of users globally.
+    </p>
+    <div class="hero-cta">
+      <a href="#experience" class="btn btn-primary">View Experience →</a>
+      <a href="mailto:apoorve1577@gmail.com" class="btn btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Years of experience</div>
+      </div>
+      <div>
+        <div class="stat-num">100M+</div>
+        <div class="stat-label">Users served</div>
+      </div>
+      <div>
+        <div class="stat-num">6</div>
+        <div class="stat-label">Companies & orgs</div>
+      </div>
+      <div>
+        <div class="stat-num">3.9</div>
+        <div class="stat-label">MS GPA, UNC Charlotte</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<!-- Header -->
-	<header id="header">
-		<a href="index.html" class="logo">PORTFOLIO</a>
-	</header>
+<!-- ABOUT -->
+<section id="about">
+  <div class="fade-in">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Who I Am</h2>
+  </div>
+  <div class="about-grid fade-in">
+    <div class="about-text">
+      <p>
+        I'm a <strong>Software Development Engineer at AWS License Manager</strong> in Santa Clara, CA,
+        building the infrastructure that governs software compliance across enterprise and federal cloud
+        ecosystems worldwide.
+      </p>
+      <p>
+        My work spans <strong>Java and Python backend services</strong>, distributed data pipelines on
+        DynamoDB, cross-account IAM models, and automated compliance systems — infrastructure that
+        Fortune 500 companies and federal agencies depend on daily.
+      </p>
+      <p>
+        Prior to AWS, I engineered cloud microservices at <strong>Broadcom/VMware</strong>, contributed to
+        open-source projects like StackStorm, and built bioinformatics platforms for federally-funded
+        research at UNC Charlotte. I hold an MS in Computer Science with a 3.9 GPA.
+      </p>
+      <p>
+        I'm deeply interested in the intersection of <strong>AI and cloud infrastructure</strong> — particularly
+        how compliance and provenance models built for software assets can be applied to AI model governance at scale.
+      </p>
+    </div>
+    <div class="about-cards">
+      <div class="about-card">
+        <div class="about-card-icon">🏢</div>
+        <div class="about-card-title">AWS License Manager</div>
+        <div class="about-card-text">SDE — Santa Clara, CA · Jan 2025–Present</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">🎓</div>
+        <div class="about-card-title">MS Computer Science</div>
+        <div class="about-card-text">UNC Charlotte · GPA 3.9/4.0 · May 2024</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">📍</div>
+        <div class="about-card-title">Santa Clara, CA</div>
+        <div class="about-card-text">Open to SF Bay Area · Seattle · Remote</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">⚙️</div>
+        <div class="about-card-title">Core Stack</div>
+        <div class="about-card-text">Java · Python · AWS · DynamoDB · Spring Boot · Kafka</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="links">
-			<li><a href="generic_education.html">EDUCATION</a></li>
-			<li class="active"><a href="index.html">WORK EXPERIENCE</a></li>
-			<li><a href="generic.html">PROJECTS</a></li>
-			<li><a href="generic_skills.html">SKILLS</a></li>
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="inner">
+    <div class="fade-in">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title">Where I've Worked</h2>
+    </div>
+    <div class="timeline">
 
-		</ul>
-		<ul class="icons">
-			<li><a href="https://www.linkedin.com/in/apoorve-bhargava/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			<li><a href="https://github.com/apoorve1577" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-			<li><a href="https://www.instagram.com/bhargavaapoorve/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-		</ul>
-	</nav>
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Software Development Engineer</div>
+          <div class="exp-date">Jan 2025 – Present</div>
+        </div>
+        <div class="exp-company">Amazon Web Services <span>· Santa Clara, CA</span></div>
+        <ul class="exp-bullets">
+          <li>Engineered core backend services in Java and Python for <strong>License Asset Groups</strong> — centralized cross-region software license visibility across AWS Organizations serving enterprise and government customers globally. <a href="https://docs.aws.amazon.com/license-manager/latest/userguide/license-asset-groups-overview.html" target="_blank" style="color: var(--accent); text-decoration: none; font-size: 0.78rem; border-bottom: 1px solid rgba(79,142,247,0.4);">↗ AWS Docs</a></li>
+          <li>Built rule-based license grouping infrastructure for automatic discovery of software (Windows Server, SQL Server, RHEL, SUSE, Ubuntu Pro) across multiple AWS regions and accounts.</li>
+          <li>Developed the <strong>Resource Sweeper</strong> — an automated discovery and reconciliation service scanning EC2 instances via AWS Systems Manager to maintain real-time license compliance state.</li>
+          <li>Designed scalable DynamoDB pipelines to aggregate license consumption metrics (vCPU, Sockets, Cores) across distributed cloud environments for Fortune 500 and federal agencies.</li>
+          <li>Integrated SNS-based automated notifications for license expiration events, reducing manual audit overhead at enterprise scale.</li>
+        </ul>
+      </div>
 
-	<!-- Main -->
-	<div id="main">
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Senior Software Engineer</div>
+          <div class="exp-date">Jul 2024 – Jan 2025</div>
+        </div>
+        <div class="exp-company">Broadcom (via HCL America) <span>· San Jose, CA · VMware Cloud on AWS</span></div>
+        <ul class="exp-bullets">
+          <li>Engineered Java and Python microservices for VMware Cloud on AWS including NSX network virtualization services critical to <strong>48% of VMware's internal engineering teams</strong>.</li>
+          <li>Implemented backdoor routing microservices for SDDCs enabling seamless multi-cloud failover and infrastructure continuity.</li>
+          <li>Developed StackStorm open-source integrations for real-time alarm metrics pipeline, contributing improvements upstream to the open-source community.</li>
+          <li>Designed Spring Boot services for cloud-native vulnerability management within Software-Defined Data Centers hosted on AWS and Dell EMC.</li>
+        </ul>
+      </div>
 
-		<!-- Featured Post -->
-		<article class="post featured">
-			<header class="major">
-			</header>
-			<a href="#" class="image main"><img src="images/workexp.jpg" alt="" /></a>
-		</article>
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Software Engineer — Research Assistant</div>
+          <div class="exp-date">May 2023 – May 2024</div>
+        </div>
+        <div class="exp-company">UNC Charlotte <span>· Charlotte, NC · Bioinformatics & Data Systems</span></div>
+        <ul class="exp-bullets">
+          <li>Engineered a bioinformatics tooling platform using Node.js, TypeScript, and MongoDB, enhancing gene sequence analysis for federally-funded biomedical research.</li>
+          <li>Architected real-time collaborative data infrastructure using WebSockets for multi-investigator scientific workflows.</li>
+          <li>Designed scalable data management enabling reproducibility and governance aligned with NIH data sharing standards.</li>
+        </ul>
+      </div>
 
-		<!-- Posts -->
-		<section class="posts">
-			<article>
-				<header>
-					<h2><a href="https://drive.google.com/file/d/1IQooyT68OP1Lo9W3fA1PI_Z2476GuKtK/view?usp=sharing"><u>VMware</u></a></h2>
-					<h3>(Member of Technical Staff) (01/2022-07/2022)</h3>
-				</header>
-				<a href="#" class="image fit"><img src="images/vmware.png" alt="" /></a>
-				<ul>
-					<li><p>Worked on various microservices such as Breakglass and SSH</p></li>
-					<li><p>In Breakglass Service, worked on verification of breakglass access which will be provided to users</p></li>
-					<li><p>Worked on transfer of metrics from breakglass services on interaction with 3rd parties in order to have proper monitoring</p></li>
-					<li><p>Worked on sending of metrics from various python services</p></li>
-					<li><p>Created alerts for various services in order to have proper monitoring for on-call developers</p></li>
-					<li><p>Was responsible for on-call issues as and when shift demanded and also did production pushes</p></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="https://drive.google.com/file/d/1FbTwCYz6-fwAzTvYnow9-aTdqu1B3Hi-/view?usp=sharing"><u>Amdocs DEVELOPMENT CENTRE</u></a></h2>
-					<h3>(Software Engineering Associate) (08/2020-01/2022)</h3>
-				</header>
-				<a href="#" class="image fit"><img src="images/amdocs.jpg" alt="" /></a>
-				<ul>
-					<li><p>Worked on Automation framework for the Services and Orders. Using Cucumber and Java. Average testing time reduced by 63%.</p></li>
-					<li><p>Created Jeopardy Management System. Responsible for creating Rest APIs using Java and Spring Boot and writing Implementations for different service flows.</p></li>
-					<li><p>Worked on Spring Security in order to enhance authentication and authorization of the application</p></li>
-					<li><p>Worked on OneClick Tool for Network Inventory database automation. I was responsible for writing JAVA code for creation of mmxml files for SES client.</p></li>
-					<li><p>The main tech stack involved is Java, Spring Boot, Dockers & Kubernetes, PostgresSQL</p></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="https://drive.google.com/file/d/1BZdTeRtFNxvKpmmKjA_LlT-bZKhbiwkM/view?usp=sharing"><u>ARISTA NETWORKS</u></a></h2>
-					<h3>(Professional Services Intern) (01/2020-06/2020)</h3>
-				</header>
-				<a href="#" class="image fit"><img src="images/arista.jpg" alt="" /></a>
-				<ul>
-					<li><p>Worked for Data Center Design for NVIDIA. Was responsible to design data center and chose appropriate protocols.</p></li>
-					<li><p>The Technologies involved were BGP, MSTP, TCP/IP, OSPF , MLAG and VARP </p></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="https://drive.google.com/file/d/1VUaGAD-2eQm3iIsMpHtIOZbJlqDLzqS8/view?usp=sharin"><u>LOTUS PETAL FOUNDATION</u></a></h2>
-					<h3>(Full Stack Developer, Social Service) (06/2021-01/2022)</h3>
-				</header>
-				<a href="#" class="image fit"><img src="images/lotus.jpg" alt="" /></a>
-				<ul>
-					<li><p>Lotus Petal Foundation is a non profit organisationhelping unpriviledged students to study further</p></li>
-					<li><p>I contributed in their full stack development of the webiste using React and PHP</p></li>
-					<li><p>I also helped in creating mockups and overall flow of the website</p></li>
-				</ul>
-			</article>
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Software Engineer</div>
+          <div class="exp-date">Jan 2022 – Jul 2022</div>
+        </div>
+        <div class="exp-company">VMware <span>· Bengaluru, India · Automation Platform</span></div>
+        <ul class="exp-bullets">
+          <li>Developed Spring Boot and Python microservices for cloud vulnerability management across AWS- and on-prem SDDCs, managing <strong>100M+ user entries</strong>.</li>
+          <li>Implemented Prometheus-based monitoring and alerting, reducing system downtime by <strong>40%</strong>.</li>
+          <li>Contributed to the StackStorm open-source project, streamlining transmission of <strong>30K+ metrics</strong> from Telegraf agents across distributed cloud systems.</li>
+        </ul>
+      </div>
 
-		</section>
-	</div>
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Software Engineer</div>
+          <div class="exp-date">Aug 2020 – Jan 2022</div>
+        </div>
+        <div class="exp-company">Amdocs Development Centre <span>· Gurugram, India · OSS/BSS Cloud Microservices</span></div>
+        <ul class="exp-bullets">
+          <li>Built cloud-native OSS microservices for Telstra's telecom operations using Spring Boot and Apache Kafka, enabling bidirectional data flow at scale.</li>
+          <li>Led development of a Kafka transaction simulation and automation testing framework (Cucumber + TestNG), reducing test cycle duration by <strong>70%</strong>.</li>
+          <li>Implemented API security layer using Kubernetes cluster-level routing, Spring Security, and Java servlets.</li>
+        </ul>
+      </div>
 
-	<!-- Footer -->
-	<footer id="footer">
-		<section class="split contact">
-			<section class="alt">
-				<h3>Address</h3>
-				<p>9539F University Terrace Dr.<br />
-					Charlotte, N.C. 28262</p>
-			</section>
-			<section>
-				<h3>Phone</h3>
-				<p><a href="#">(000) 000-0000</a></p>
-			</section>
-			<section>
-				<h3>Email</h3>
-				<p><a href="#">apoorve1577@gmail.com</a></p>
-			</section>
-		</section>
-	</footer>
+      <div class="exp-item fade-in">
+        <div class="exp-header">
+          <div class="exp-title">Software Services Engineer</div>
+          <div class="exp-date">Jan 2020 – Jun 2020</div>
+        </div>
+        <div class="exp-company">Arista Networks <span>· Bengaluru, India · Network Protocols</span></div>
+        <ul class="exp-bullets">
+          <li>Developed and optimized network protocol implementations using TCP/IP, Python, and Bash.</li>
+          <li>Automated network configuration and performance monitoring using Python, reducing manual intervention in operations workflows.</li>
+        </ul>
+      </div>
 
-</div>
+    </div>
+  </div>
+</section>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="fade-in">
+    <div class="section-label">Skills</div>
+    <h2 class="section-title">Technical Stack</h2>
+    <p class="section-sub">Languages, frameworks, and tools I work with across cloud infrastructure, distributed systems, and AI/ML.</p>
+  </div>
+  <div class="skills-grid fade-in">
+    <div class="skill-group">
+      <div class="skill-group-title">Languages</div>
+      <div class="skill-tags">
+        <span class="tag">Java</span>
+        <span class="tag">Python</span>
+        <span class="tag">Golang</span>
+        <span class="tag">C++</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Cloud & AWS</div>
+      <div class="skill-tags">
+        <span class="tag">License Manager</span>
+        <span class="tag">DynamoDB</span>
+        <span class="tag">ECS</span>
+        <span class="tag">Lambda</span>
+        <span class="tag">S3</span>
+        <span class="tag">CloudWatch</span>
+        <span class="tag">SageMaker</span>
+        <span class="tag">SNS</span>
+        <span class="tag">IAM</span>
+        <span class="tag">GCP</span>
+        <span class="tag">Azure</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Frameworks</div>
+      <div class="skill-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">Flask</span>
+        <span class="tag">Django REST</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Express</span>
+        <span class="tag">React</span>
+        <span class="tag">gRPC</span>
+        <span class="tag">GraphQL</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Distributed Systems</div>
+      <div class="skill-tags">
+        <span class="tag">Apache Kafka</span>
+        <span class="tag">Microservices</span>
+        <span class="tag">Message Queues</span>
+        <span class="tag">Load Balancing</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">WebSockets</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Databases</div>
+      <div class="skill-tags">
+        <span class="tag">DynamoDB</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Oracle</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">AI / ML</div>
+      <div class="skill-tags">
+        <span class="tag">LLMs</span>
+        <span class="tag">Generative AI</span>
+        <span class="tag">SageMaker</span>
+        <span class="tag">Prompt Engineering</span>
+        <span class="tag">Model Integration</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">DevOps & Observability</div>
+      <div class="skill-tags">
+        <span class="tag">Docker</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">Jenkins</span>
+        <span class="tag">Prometheus</span>
+        <span class="tag">Grafana</span>
+        <span class="tag">Kibana</span>
+        <span class="tag">GitLab CI/CD</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Open Source</div>
+      <div class="skill-tags">
+        <span class="tag">StackStorm</span>
+        <span class="tag">Bioinformatics</span>
+        <span class="tag">OpenSSF</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="fade-in">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">Projects & Research</h2>
+    <p class="section-sub">Things I've built on my own, outside of work — solving real problems from scratch.</p>
+  </div>
+  <div class="projects-grid fade-in">
+    <div class="project-card">
+      <div class="project-type">Machine Learning</div>
+      <div class="project-title">AI vs. Human Text Detector</div>
+      <div class="project-stack">Python · AWS SageMaker · S3</div>
+      <div class="project-desc">
+        Built a system that can tell whether a piece of writing was written by a human or generated by an AI.
+        Trained and deployed the model fully on AWS — handles everything from raw data ingestion to live predictions.
+        Built in response to growing concerns about AI-generated content in academic settings.
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-type">Backend System</div>
+      <div class="project-title">High-Volume Event Analytics API</div>
+      <div class="project-stack">Python · Flask · PostgreSQL · Docker · AWS</div>
+      <div class="project-desc">
+        Built an API that can receive and analyze over 100,000 events per day without breaking a sweat.
+        Designed so it can scale horizontally — add more servers when traffic spikes. Includes rate limiting
+        and background jobs so nothing blocks the main request flow.
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-type">Research</div>
+      <div class="project-title">Tracking AI Models Like Software Licenses</div>
+      <div class="project-stack">AI Governance · Cloud Infrastructure · Security</div>
+      <div class="project-desc">
+        Ongoing research exploring a question: what if we tracked AI models the same way enterprises track
+        software licenses? My work at AWS License Manager taught me how to govern software at scale —
+        this research applies those same ideas to AI model safety and accountability in the cloud.
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-type">Open Source</div>
+      <div class="project-title">StackStorm — Contributed Real-Time Metrics Pipeline</div>
+      <div class="project-stack">Python · Distributed Systems · Cloud Ops</div>
+      <div class="project-desc">
+        StackStorm is an open-source automation platform used across cloud data centers.
+        I built integrations that pipe 30,000+ live operational metrics from monitoring agents into
+        the platform in real time — and pushed the improvements back to the open-source community for everyone to use.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="fade-in">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Let's Connect</h2>
+  </div>
+  <div class="contact-card fade-in">
+    <p style="color: var(--muted); margin-bottom: 0.5rem;">Currently based in Santa Clara, CA</p>
+    <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Open to new opportunities</h3>
+    <p style="color: var(--muted); font-size: 0.9rem;">
+      Interested in roles at the intersection of cloud infrastructure, distributed systems, and applied AI.
+      Particularly excited about Applied AI Engineering, infrastructure at scale, and enterprise cloud security.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:apoorve1577@gmail.com" class="contact-link">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        apoorve1577@gmail.com
+      </a>
+      <a href="https://linkedin.com/in/apoorve-bhargava" target="_blank" class="contact-link">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/apoorve1577" target="_blank" class="contact-link">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built with intention · Apoorve Bhargava · 2025</p>
+</footer>
+
+<script>
+  // Intersection Observer for fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(el => {
+      if (el.isIntersecting) {
+        el.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+      if (window.scrollY >= section.offsetTop - 100) current = section.id;
+    });
+    navLinks.forEach(link => {
+      link.style.color = link.getAttribute('href') === `#${current}` ? 'var(--text)' : '';
+    });
+  });
+</script>
 
 </body>
 </html>
