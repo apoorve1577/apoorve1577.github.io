@@ -310,17 +310,17 @@
   <div class="hero-inner">
     <div class="hero-tag">Available for opportunities</div>
     <h1><span class="gradient-text">Apoorve Bhargava</span></h1>
-    <h1 style="color: var(--muted); font-size: clamp(1.8rem, 4vw, 3rem); margin-top: 0.25rem;">
-      Senior Software Engineer
-    </h1>
-    <p class="hero-sub">
+    <p style="color: var(--text); font-size: 1.6rem; font-weight: 700; margin-top: 0.75rem; letter-spacing: -0.01em;">
+      Engineering <a href="https://aws.amazon.com" target="_blank" style="color: var(--accent); text-decoration: none;">@AWS</a>
+    </p>
+    <p class="hero-sub" style="font-size: 0.95rem; font-weight: 400; margin-top: 1.25rem; color: var(--muted);">
       Building distributed cloud infrastructure at AWS. Specializing in large-scale systems,
       AI-integrated platforms, and software compliance infrastructure serving hundreds of
       millions of users globally.
     </p>
     <div class="hero-cta">
       <a href="#experience" class="btn btn-primary">View Experience →</a>
-      <a href="mailto:apoorve1577@gmail.com" class="btn btn-ghost">Get in Touch</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
     </div>
     <div class="hero-stats">
       <div>
@@ -417,6 +417,8 @@
           <li>Developed the <strong>Resource Sweeper</strong> — an automated discovery and reconciliation service scanning EC2 instances via AWS Systems Manager to maintain real-time license compliance state.</li>
           <li>Designed scalable DynamoDB pipelines to aggregate license consumption metrics (vCPU, Sockets, Cores) across distributed cloud environments for Fortune 500 and federal agencies.</li>
           <li>Integrated SNS-based automated notifications for license expiration events, reducing manual audit overhead at enterprise scale.</li>
+          <li>Prototyped an ML-based anomaly detection layer on top of license consumption pipelines — using Amazon SageMaker to flag irregular usage spikes across EC2 fleets and surface potential compliance violations before they escalate.</li>
+          <li>Worked on <strong>AWS Marketplace ISV onboarding</strong>, reducing the time for independent software vendors to onboard from roughly <strong style="color: var(--text)">one week to a couple of hours</strong>.</li>
         </ul>
       </div>
 
@@ -623,12 +625,22 @@
     </div>
     <div class="project-card">
       <div class="project-type">Research</div>
-      <div class="project-title">Tracking AI Models Like Software Licenses</div>
-      <div class="project-stack">AI Governance · Cloud Infrastructure · Security</div>
+      <div class="project-title">Recovery from Compromised AI Models</div>
+      <div class="project-stack">Model Lineage · Blast Radius · AI Supply Chain Security</div>
       <div class="project-desc">
-        Ongoing research exploring a question: what if we tracked AI models the same way enterprises track
-        software licenses? My work at AWS License Manager taught me how to govern software at scale —
-        this research applies those same ideas to AI model safety and accountability in the cloud.
+        Ongoing research on the recovery half of AI supply chain security. Existing tooling verifies a model
+        at the moment you adopt it, but nothing answers what happens when a foundation model is discovered
+        compromised months later, after hundreds of models have already been fine-tuned from it. Building a
+        typed lineage graph with blast radius queries and an automated recovery planner. A working prototype
+        shows that a small gap in lineage recording causes models to be falsely reported as unrecoverable,
+        pushing operators toward expensive retraining when a cheap rollback was available.
+        <div style="margin-top: 0.85rem;">
+          <a href="https://medium.com/@apoorve1577/ai-security-solved-the-wrong-half-of-the-problem-d3c7d4b19f36"
+             target="_blank" rel="noopener"
+             style="color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.82rem;">
+            Read: AI Security Solved the Wrong Half of the Problem &rsaquo;
+          </a>
+        </div>
       </div>
     </div>
     <div class="project-card">
