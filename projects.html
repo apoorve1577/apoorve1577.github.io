@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Apoorve Bhargava</title>
+<meta name="description" content="Things built outside work: a StackStorm metrics pipeline, an AI text detector on SageMaker, a high-volume event analytics API." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-in">
+    <a href="index.html" class="nav-logo">Apoorve Bhargava</a>
+    <ul class="nav-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="sec-label">Projects</p>
+    <h1>Built outside work</h1>
+    <p class="sec-sub">Things I built from scratch to solve a problem I actually had.</p>
+  </div>
+</header>
+
+<main>
+<section id="projects" class="page">
+  <div class="wrap">
+    <div class="rv grid">
+      <div class="card">
+        <p class="tag">Open source</p>
+        <h3>StackStorm — real-time metrics pipeline</h3>
+        <p class="stack">Python · Distributed systems</p>
+        <p>
+          StackStorm is an open-source automation platform used across cloud data centres. I built
+          integrations piping 30,000+ live operational metrics from monitoring agents into the
+          platform in real time, and contributed the improvements upstream.
+        </p>
+      </div>
+      <div class="card">
+        <p class="tag">Machine learning</p>
+        <h3>AI vs. human text detector</h3>
+        <p class="stack">Python · SageMaker · S3</p>
+        <p>
+          A classifier that distinguishes human writing from generated text, trained and deployed
+          end to end on AWS — from raw data ingestion through to live prediction. Built in response
+          to concerns about generated content in academic settings.
+        </p>
+      </div>
+      <div class="card">
+        <p class="tag">Backend</p>
+        <h3>High-volume event analytics API</h3>
+        <p class="stack">Python · Flask · PostgreSQL · Docker</p>
+        <p>
+          An API handling over 100,000 events a day, designed to scale horizontally with rate
+          limiting and background job processing so nothing blocks the request path.
+        </p>
+      </div>
+    </div>
+  
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer-in">
+    <span>Apoorve Bhargava · Santa Clara, California</span>
+    <ul class="footer-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="mailto:apoorve1577@gmail.com">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

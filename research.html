@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Research — Apoorve Bhargava</title>
+<meta name="description" content="Recovery from compromised AI model supply chains: a published preprint, two proofs, an interactive blast-radius demo, and the code." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-in">
+    <a href="index.html" class="nav-logo">Apoorve Bhargava</a>
+    <ul class="nav-links">
+      <li><a href="research.html" aria-current="page">Research</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="sec-label">Research</p>
+    <h1>Recovery from compromised AI model supply chains</h1>
+    <p class="sec-sub">Independent work, with a published preprint and a reproducible implementation.</p>
+  </div>
+</header>
+
+<main>
+<section id="research" class="page">
+  <div class="wrap">
+    <article class="rv paper">
+      <h3>Beyond Detection: A Recovery-Oriented Architecture for Compromised AI Model Remediation</h3>
+      <p class="meta">Preprint · September 2026 · CC BY 4.0 · 16 pages</p>
+
+      <p>
+        AI supply chain security has matured at the point of adoption: model signing, provenance
+        documentation and static scanning all answer whether an artifact is what it claims to be.
+        None answers the question that arises when that trust is later overturned — given an
+        artifact now known to be compromised, which deployed models descend from it, and what can
+        be done about each one.
+      </p>
+      <p>
+        The paper argues this is a graph reachability problem rather than a cryptographic one,
+        gives a formal model of how compromise propagates across a typed lineage graph, and builds
+        a recovery planner that classifies every affected artifact by whether rollback to a clean,
+        signed ancestor is actually available.
+      </p>
+
+      <ul class="findings">
+        <li><strong>Two proofs.</strong> A blast radius computed over an incompletely recorded
+          graph is a sound lower bound on true exposure, so the query never over-reports; and any
+          rollback target the planner proposes lies outside the true blast radius, even though the
+          planner never sees that graph.</li>
+        <li><strong>Partial records mislead in a measurable way.</strong> The rate at which
+          artifacts are wrongly declared unrecoverable grows superlinearly in the detection miss
+          rate, while the count grows sublinearly — so claims about operational cost are claims
+          about the count, not the rate.</li>
+        <li><strong>Attestation coverage is a poor security metric.</strong> An adversary who
+          withholds attestations near the compromise, rather than losing them at random, halves
+          recall at an identical recording budget.</li>
+      </ul>
+
+      <div class="links">
+        <a href="https://doi.org/10.5281/zenodo.22729426" target="_blank" rel="noopener">Paper (DOI) ↗</a>
+        <a href="https://github.com/apoorve1577/model-lineage-recovery" target="_blank" rel="noopener">Code &amp; evaluation ↗</a>
+        <a href="https://medium.com/@apoorve1577/ai-security-solved-the-wrong-half-of-the-problem-d3c7d4b19f36" target="_blank" rel="noopener">Essay: AI Security Solved the Wrong Half of the Problem ↗</a>
+      </div>
+
+      <div class="cite">Bhargava, A. (2026). Beyond Detection: A Recovery-Oriented Architecture for
+Compromised AI Model Remediation. Zenodo. https://doi.org/10.5281/zenodo.22729426</div>
+    </article>
+
+    <div class="rv demo">
+      <div class="demo-head">
+        <h3>Try it: where does a compromise actually reach?</h3>
+      </div>
+      <p class="demo-hint">
+        Each box is a model. Arrows run parent to child, the direction contamination
+        travels. <b>Click a model</b> to say it was found compromised, and the blast
+        radius lights up along with what can be done about each affected artifact.
+        Then <b>click an arrow</b> to delete it — that is a derivation nobody wrote
+        down, and it is the situation the paper is about.
+      </p>
+
+      <div class="stage">
+        <div class="canvas">
+          <svg id="g" viewBox="0 0 520 300" role="img"
+               aria-label="Interactive model lineage graph"></svg>
+        </div>
+        <div class="panel">
+          <h4>Reading</h4>
+          <p class="readout" id="readout">Click any model to begin.</p>
+          <h4>Verdicts</h4>
+          <ul class="verdicts" id="verdicts"><li>—</li></ul>
+          <div class="demo-ctl">
+            <button class="mini" id="reset">Reset</button>
+            <button class="mini" id="restore">Restore arrows</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="key">
+        <i><span class="dot" style="background:#e0574f"></span>compromised</i>
+        <i><span class="dot" style="background:#b8433c"></span>affected</i>
+        <i><span class="dot" style="background:#3f9e6a"></span>can roll back</i>
+        <i><span class="dot" style="background:var(--faint)"></span>clean</i>
+        <i>&#9670; signed</i>
+      </div>
+    </div>
+
+    <div class="rv grid" style="margin-top:1.5rem">
+      <div class="card">
+        <p class="tag">Artifact</p>
+        <h3>model-lineage-recovery</h3>
+        <p class="stack">Python · NetworkX · Apache-2.0</p>
+        <p>
+          The full implementation and evaluation, about 1,500 lines. A typed lineage DAG, a
+          blast-radius query, and a recovery planner. The entire study reproduces from a clean
+          clone in roughly thirteen seconds, and a checker validates every number in the paper
+          against the published results.
+        </p>
+      </div>
+      <div class="card">
+        <p class="tag">In progress</p>
+        <h3>Real lineage at hub scale</h3>
+        <p class="stack">Hugging Face · Coverage measurement</p>
+        <p>
+          The next step is to stop simulating the graph and measure the real one. Model hubs
+          already publish base-model tags, adapter configs, quantization variants and merge
+          parents. Assembling those and measuring how much of the true derivation graph is
+          actually declared is a number nobody has published.
+        </p>
+      </div>
+    </div>
+  
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer-in">
+    <span>Apoorve Bhargava · Santa Clara, California</span>
+    <ul class="footer-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="mailto:apoorve1577@gmail.com">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/lineage.js"></script>
+</body>
+</html>
