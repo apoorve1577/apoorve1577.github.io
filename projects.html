@@ -4,12 +4,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Projects | Apoorve Bhargava</title>
-<meta name="description" content="Things built outside work: a StackStorm metrics pipeline, an AI text detector on SageMaker, a high-volume event analytics API." />
+<meta name="description" content="The research implementation, a StackStorm metrics pipeline, an AI text detector on SageMaker, and a high-volume event analytics API." />
 <link rel="canonical" href="https://www.apoorvebhargava.com/projects" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/site.css?v=202609121741" />
+<link rel="stylesheet" href="/assets/site.css?v=202609121752" />
 </head>
 <body data-page="projects">
 <nav>
@@ -19,6 +19,7 @@
       <li><a href="/about" style="--h:#4ade80"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>About</a></li>
       <li><a href="/research" style="--h:#a78bfa"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9V3"/><path d="M7 15h10"/></svg>Research</a></li>
       <li><a href="/experience" style="--h:#5b9dff"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>Experience</a></li>
+      <li><a href="/education" style="--h:#38bdf8"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5M22 9v6"/></svg>Education</a></li>
       <li><a href="/skills" style="--h:#2dd4bf"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>Skills</a></li>
       <li><a href="/projects" style="--h:#f5b544" aria-current="page"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Projects</a></li>
       <li><a href="/contact" style="--h:#f472b6"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Contact</a></li>
@@ -30,43 +31,58 @@
   <div class="wrap">
     <p class="sec-label"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Projects</p>
     <h1>Built outside work</h1>
-    <p class="sec-sub">Things I built from scratch to solve a problem I actually had.</p>
+    <p class="sec-sub">Four things built from scratch, each with the number that mattered.</p>
   </div>
 </header>
 
 <main>
 <section id="projects" class="page">
   <div class="wrap">
-    <div class="rv grid">
-      <div class="card" style="--cc:#5b9dff">
-        <p class="tag"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>Open source</p>
-        <h3>StackStorm real-time metrics pipeline</h3>
-        <p class="stack">Python · Distributed systems</p>
-        <p>
-          StackStorm is an open-source automation platform used across cloud data centers. I built
-          integrations piping 30,000+ live operational metrics from monitoring agents into the
-          platform in real time, and contributed the improvements upstream.
-        </p>
-      </div>
-      <div class="card" style="--cc:#a78bfa">
-        <p class="tag"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 3 3h3V4H9z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-3 3h-3V4h3z"/></svg>Machine learning</p>
-        <h3>AI versus human text detector</h3>
-        <p class="stack">Python · SageMaker · S3 · Glue</p>
-        <p>
-          A classifier that distinguishes human writing from generated text, trained and deployed
-          end to end on AWS, from raw data ingestion through to live prediction. Built in response
-          to concerns about generated content in academic settings.
-        </p>
-      </div>
-      <div class="card" style="--cc:#2dd4bf">
-        <p class="tag"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Backend</p>
-        <h3>High-volume event analytics API</h3>
-        <p class="stack">Python · Flask · PostgreSQL · Docker</p>
-        <p>
-          An API handling over 100,000 events a day, designed to scale horizontally with rate
-          limiting and background job processing so nothing blocks the request path.
-        </p>
-      </div>
+    <div class="rv projects">
+      <article class="proj featured" style="--cc:#a78bfa">
+        <div class="band"><span class="tag"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9V3"/><path d="M7 15h10"/></svg>Research code</span><svg class="ic big" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="9" r="2.5"/><path d="M6 8.5v7M18 11.5a6 6 0 0 1-6 6H8.5"/></svg></div>
+        <div class="body">
+          <h3>model-lineage-recovery</h3>
+          <p class="metric">13 s<small>to reproduce the whole study</small></p>
+          <p>The implementation behind the paper. A typed lineage DAG, a blast-radius query, and a recovery planner
+            that classifies every affected model by whether a clean, signed ancestor is reachable. About 1,500 lines,
+            and a checker validates every number in the paper against the published results.</p>
+          <div class="foot"><div class="stack"><span>Python</span><span>NetworkX</span><span>Apache-2.0</span></div>
+            <a class="go" href="https://github.com/apoorve1577/model-lineage-recovery" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>View on GitHub<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6"/></svg></a></div>
+        </div>
+      </article>
+      <article class="proj" style="--cc:#5b9dff">
+        <div class="band"><span class="tag"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>Open source</span><svg class="ic big" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></div>
+        <div class="body">
+          <h3>StackStorm real-time metrics pipeline</h3>
+          <p class="metric">30,000+<small>live metrics</small></p>
+          <p>StackStorm is an open-source automation platform used across cloud data centers. I built integrations piping
+            live operational metrics from Telegraf monitoring agents into the platform in real time, and contributed the
+            improvements upstream.</p>
+          <div class="foot"><div class="stack"><span>Python</span><span>StackStorm</span><span>Telegraf</span></div></div>
+        </div>
+      </article>
+      <article class="proj" style="--cc:#2dd4bf">
+        <div class="band"><span class="tag"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 3 3h3V4H9z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-3 3h-3V4h3z"/></svg>Machine learning</span><svg class="ic big" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg></div>
+        <div class="body">
+          <h3>AI versus human text detector</h3>
+          <p class="metric">End to end<small>on AWS</small></p>
+          <p>A classifier that distinguishes human writing from generated text, trained and deployed on AWS from raw
+            data ingestion through to live prediction. Built in response to concerns about generated content in
+            academic settings.</p>
+          <div class="foot"><div class="stack"><span>Python</span><span>SageMaker</span><span>S3</span><span>Glue</span></div></div>
+        </div>
+      </article>
+      <article class="proj" style="--cc:#f5b544">
+        <div class="band"><span class="tag"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Backend</span><svg class="ic big" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <div class="body">
+          <h3>High-volume event analytics API</h3>
+          <p class="metric">100,000+<small>events a day</small></p>
+          <p>An API for large-scale event ingestion and analysis, designed to scale horizontally with rate limiting
+            and background job processing so nothing blocks the request path.</p>
+          <div class="foot"><div class="stack"><span>Python</span><span>Flask</span><span>PostgreSQL</span><span>Docker</span></div></div>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -82,6 +98,7 @@
       <li><a href="/about" style="--h:#4ade80"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>About</a></li>
       <li><a href="/research" style="--h:#a78bfa"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9V3"/><path d="M7 15h10"/></svg>Research</a></li>
       <li><a href="/experience" style="--h:#5b9dff"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>Experience</a></li>
+      <li><a href="/education" style="--h:#38bdf8"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5M22 9v6"/></svg>Education</a></li>
       <li><a href="/skills" style="--h:#2dd4bf"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>Skills</a></li>
       <li><a href="/projects" style="--h:#f5b544"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Projects</a></li>
       <li><a href="/contact" style="--h:#f472b6"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Contact</a></li>
@@ -89,6 +106,6 @@
   </div>
 </footer>
 
-<script src="assets/site.js?v=202609121741"></script>
+<script src="/assets/site.js?v=202609121752"></script>
 </body>
 </html>
