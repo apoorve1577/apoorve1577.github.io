@@ -93,7 +93,7 @@
       const hit = el('path', {d:path(a,b), class:'edge-hit'});
       hit.addEventListener('click', () => { isCut ? cut.delete(i) : cut.add(i); draw(); });
       hit.appendChild(el('title', {})).textContent =
-        isCut ? 'Unrecorded — click to restore' : 'Click to delete: an unrecorded derivation';
+        isCut ? 'Unrecorded. Click to restore' : 'Click to delete: an unrecorded derivation';
       svg.appendChild(hit);
     });
 
@@ -121,7 +121,7 @@
     const list = document.getElementById('verdicts');
     if (!pz){
       out.innerHTML = 'Click any model to mark it compromised.';
-      list.innerHTML = '<li>—</li>';
+      list.innerHTML = '<li>nothing selected</li>';
       return;
     }
     const others = [...aff].filter(x => x !== pz);
@@ -130,12 +130,12 @@
     const hidden = cut.size;
     out.innerHTML = `<b>${pz}</b> is compromised. ${others.length} other artifact`
       + `${others.length === 1 ? '' : 's'} downstream`
-      + (hidden ? `, with ${hidden} derivation${hidden===1?'':'s'} unrecorded — `
-          + `so this is a <b>lower bound</b>, never an over-estimate.` : '.');
+      + (hidden ? `, with ${hidden} derivation${hidden===1?'':'s'} unrecorded, `
+          + `so this is a <b>lower bound</b> and never an over-estimate.` : '.');
     const cl = {recoverable:'v-rec', blocked:'v-blk', unrecoverable:'v-unr'};
     list.innerHTML = `<li class="v-pz"><span>${pz}</span><span>patient zero</span></li>`
       + vs.map(([m, v]) => `<li class="${cl[v]}"><span>${m}</span><span>${v}</span></li>`).join('')
-      + (others.length ? '' : '<li><span>—</span><span>nothing downstream</span></li>');
+      + (others.length ? '' : '<li><span>none</span><span>nothing downstream</span></li>');
   }
 
   document.getElementById('reset').onclick = () => { pz = null; cut.clear(); draw(); };
